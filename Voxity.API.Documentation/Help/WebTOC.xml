@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the Voxity.API .NET Library" Url="html/53c85436-a1f8-40c9-844f-fa10ef0ff744.htm" />
+  <HelpTOCNode Id="ab41e818-208f-4a5d-a503-90b4818789b3" Title="Version History" Url="html/d3e93931-8ce4-4e4b-b483-b62314b371c3.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/b8b16620-81f8-41d2-b63a-0f65da1451c0.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="b84f3769-eda4-4ab0-9ee1-f7b7c5bade9e" Title="Voxity.API" Url="html/N_Voxity_API.htm">
+    <HelpTOCNode Id="79e40090-c970-4fd2-a557-bb8258b2f97e" Title="AccessTokenException Class" Url="html/T_Voxity_API_AccessTokenException.htm">
+      <HelpTOCNode Title="AccessTokenException Constructor " Url="html/M_Voxity_API_AccessTokenException__ctor.htm" />
+      <HelpTOCNode Title="AccessTokenException Properties" Url="html/Properties_T_Voxity_API_AccessTokenException.htm" />
+      <HelpTOCNode Title="AccessTokenException Methods" Url="html/Methods_T_Voxity_API_AccessTokenException.htm" />
+      <HelpTOCNode Title="AccessTokenException Events" Url="html/Events_T_Voxity_API_AccessTokenException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="23cea414-69cc-4428-9fd6-389133cde78d" Title="ApiAdminException Class" Url="html/T_Voxity_API_ApiAdminException.htm">
+      <HelpTOCNode Title="ApiAdminException Constructor " Url="html/M_Voxity_API_ApiAdminException__ctor.htm" />
+      <HelpTOCNode Title="ApiAdminException Properties" Url="html/Properties_T_Voxity_API_ApiAdminException.htm" />
+      <HelpTOCNode Title="ApiAdminException Methods" Url="html/Methods_T_Voxity_API_ApiAdminException.htm" />
+      <HelpTOCNode Title="ApiAdminException Events" Url="html/Events_T_Voxity_API_ApiAdminException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c1c9e10-3b6e-492b-ab5f-c1cdc6b4a565" Title="ApiArgumentException Class" Url="html/T_Voxity_API_ApiArgumentException.htm">
+      <HelpTOCNode Title="ApiArgumentException Constructor " Url="html/M_Voxity_API_ApiArgumentException__ctor.htm" />
+      <HelpTOCNode Title="ApiArgumentException Properties" Url="html/Properties_T_Voxity_API_ApiArgumentException.htm" />
+      <HelpTOCNode Title="ApiArgumentException Methods" Url="html/Methods_T_Voxity_API_ApiArgumentException.htm" />
+      <HelpTOCNode Title="ApiArgumentException Events" Url="html/Events_T_Voxity_API_ApiArgumentException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c597a9a-9058-4316-ac79-6120794b0187" Title="ApiAuthenticateException Class" Url="html/T_Voxity_API_ApiAuthenticateException.htm">
+      <HelpTOCNode Title="ApiAuthenticateException Constructor " Url="html/M_Voxity_API_ApiAuthenticateException__ctor.htm" />
+      <HelpTOCNode Title="ApiAuthenticateException Properties" Url="html/Properties_T_Voxity_API_ApiAuthenticateException.htm" />
+      <HelpTOCNode Title="ApiAuthenticateException Methods" Url="html/Methods_T_Voxity_API_ApiAuthenticateException.htm" />
+      <HelpTOCNode Title="ApiAuthenticateException Events" Url="html/Events_T_Voxity_API_ApiAuthenticateException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="444f26ee-314a-4201-906e-5151ca264bb1" Title="ApiErrorResponseException Class" Url="html/T_Voxity_API_ApiErrorResponseException.htm">
+      <HelpTOCNode Id="ae90a3df-e6b2-404c-a98f-dc027d3df0a9" Title="ApiErrorResponseException Constructor " Url="html/Overload_Voxity_API_ApiErrorResponseException__ctor.htm">
+        <HelpTOCNode Title="ApiErrorResponseException Constructor (String, Exception)" Url="html/M_Voxity_API_ApiErrorResponseException__ctor.htm" />
+        <HelpTOCNode Title="ApiErrorResponseException Constructor (String, String)" Url="html/M_Voxity_API_ApiErrorResponseException__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ApiErrorResponseException Properties" Url="html/Properties_T_Voxity_API_ApiErrorResponseException.htm" />
+      <HelpTOCNode Title="ApiErrorResponseException Methods" Url="html/Methods_T_Voxity_API_ApiErrorResponseException.htm" />
+      <HelpTOCNode Title="ApiErrorResponseException Events" Url="html/Events_T_Voxity_API_ApiErrorResponseException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="59b02c49-7976-4622-a7c8-0588efe0b177" Title="ApiInternalErrorException Class" Url="html/T_Voxity_API_ApiInternalErrorException.htm">
+      <HelpTOCNode Title="ApiInternalErrorException Constructor " Url="html/M_Voxity_API_ApiInternalErrorException__ctor.htm" />
+      <HelpTOCNode Title="ApiInternalErrorException Properties" Url="html/Properties_T_Voxity_API_ApiInternalErrorException.htm" />
+      <HelpTOCNode Title="ApiInternalErrorException Methods" Url="html/Methods_T_Voxity_API_ApiInternalErrorException.htm" />
+      <HelpTOCNode Title="ApiInternalErrorException Events" Url="html/Events_T_Voxity_API_ApiInternalErrorException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2e63a547-6810-4b06-9577-df0781542e19" Title="ApiResponse(T) Class" Url="html/T_Voxity_API_ApiResponse_1.htm">
+      <HelpTOCNode Title="ApiResponse(T) Constructor " Url="html/M_Voxity_API_ApiResponse_1__ctor.htm" />
+      <HelpTOCNode Id="7c818e4d-932d-4d70-851d-d1193d308316" Title="ApiResponse(T) Methods" Url="html/Methods_T_Voxity_API_ApiResponse_1.htm">
+        <HelpTOCNode Title="Errors Method " Url="html/M_Voxity_API_ApiResponse_1_Errors.htm" />
+        <HelpTOCNode Title="Results Method " Url="html/M_Voxity_API_ApiResponse_1_Results.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a5b269d6-11c0-49b0-b441-40a018719ca7" Title="ApiResponse(T) Fields" Url="html/Fields_T_Voxity_API_ApiResponse_1.htm">
+        <HelpTOCNode Title="data Field" Url="html/F_Voxity_API_ApiResponse_1_data.htm" />
+        <HelpTOCNode Title="error Field" Url="html/F_Voxity_API_ApiResponse_1_error.htm" />
+        <HelpTOCNode Title="result Field" Url="html/F_Voxity_API_ApiResponse_1_result.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9e515980-05c5-46e7-961b-dd57d24bcd9c" Title="ApiSession Class" Url="html/T_Voxity_API_ApiSession.htm">
+      <HelpTOCNode Title="ApiSession Constructor " Url="html/M_Voxity_API_ApiSession__ctor.htm" />
+      <HelpTOCNode Id="dfdca70f-896c-481d-af69-33d96892ff1b" Title="ApiSession Properties" Url="html/Properties_T_Voxity_API_ApiSession.htm">
+        <HelpTOCNode Title="AccessToken Property " Url="html/P_Voxity_API_ApiSession_AccessToken.htm" />
+        <HelpTOCNode Title="AskAuthUri Property " Url="html/P_Voxity_API_ApiSession_AskAuthUri.htm" />
+        <HelpTOCNode Title="Authentication Property " Url="html/P_Voxity_API_ApiSession_Authentication.htm" />
+        <HelpTOCNode Title="Calls Property " Url="html/P_Voxity_API_ApiSession_Calls.htm" />
+        <HelpTOCNode Title="ClientId Property " Url="html/P_Voxity_API_ApiSession_ClientId.htm" />
+        <HelpTOCNode Title="ClientSecret Property " Url="html/P_Voxity_API_ApiSession_ClientSecret.htm" />
+        <HelpTOCNode Title="Contacts Property " Url="html/P_Voxity_API_ApiSession_Contacts.htm" />
+        <HelpTOCNode Title="Devices Property " Url="html/P_Voxity_API_ApiSession_Devices.htm" />
+        <HelpTOCNode Title="HostRedirect Property " Url="html/P_Voxity_API_ApiSession_HostRedirect.htm" />
+        <HelpTOCNode Title="PortRedirect Property " Url="html/P_Voxity_API_ApiSession_PortRedirect.htm" />
+        <HelpTOCNode Title="RefreshToken Property " Url="html/P_Voxity_API_ApiSession_RefreshToken.htm" />
+        <HelpTOCNode Title="Sms Property " Url="html/P_Voxity_API_ApiSession_Sms.htm" />
+        <HelpTOCNode Title="TokenExpirationDate Property " Url="html/P_Voxity_API_ApiSession_TokenExpirationDate.htm" />
+        <HelpTOCNode Title="Tokens Property " Url="html/P_Voxity_API_ApiSession_Tokens.htm" />
+        <HelpTOCNode Title="UriRedirect Property " Url="html/P_Voxity_API_ApiSession_UriRedirect.htm" />
+        <HelpTOCNode Title="Users Property " Url="html/P_Voxity_API_ApiSession_Users.htm" />
+        <HelpTOCNode Title="Vms Property " Url="html/P_Voxity_API_ApiSession_Vms.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59cf2848-e19a-4eab-80dc-7345f2f32269" Title="ApiSession Methods" Url="html/Methods_T_Voxity_API_ApiSession.htm">
+        <HelpTOCNode Title="AutoRefresh Method " Url="html/M_Voxity_API_ApiSession_AutoRefresh.htm" />
+        <HelpTOCNode Title="Connect Method " Url="html/M_Voxity_API_ApiSession_Connect.htm" />
+        <HelpTOCNode Title="Disconnect Method " Url="html/M_Voxity_API_ApiSession_Disconnect.htm" />
+        <HelpTOCNode Title="Request Method " Url="html/M_Voxity_API_ApiSession_Request.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ApiSession.HttpMethod Enumeration" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+    <HelpTOCNode Id="631c4c58-b252-459f-a57d-b6f723343f34" Title="ApiSessionException Class" Url="html/T_Voxity_API_ApiSessionException.htm">
+      <HelpTOCNode Id="caea1af6-5200-4cd3-b5c4-bc01a6b4f06d" Title="ApiSessionException Constructor " Url="html/Overload_Voxity_API_ApiSessionException__ctor.htm">
+        <HelpTOCNode Title="ApiSessionException Constructor " Url="html/M_Voxity_API_ApiSessionException__ctor.htm" />
+        <HelpTOCNode Title="ApiSessionException Constructor (String)" Url="html/M_Voxity_API_ApiSessionException__ctor_2.htm" />
+        <HelpTOCNode Title="ApiSessionException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Voxity_API_ApiSessionException__ctor_1.htm" />
+        <HelpTOCNode Title="ApiSessionException Constructor (String, Exception)" Url="html/M_Voxity_API_ApiSessionException__ctor_3.htm" />
+        <HelpTOCNode Title="ApiSessionException Constructor (String, Object[])" Url="html/M_Voxity_API_ApiSessionException__ctor_5.htm" />
+        <HelpTOCNode Title="ApiSessionException Constructor (String, Exception, Object[])" Url="html/M_Voxity_API_ApiSessionException__ctor_4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ApiSessionException Properties" Url="html/Properties_T_Voxity_API_ApiSessionException.htm" />
+      <HelpTOCNode Title="ApiSessionException Methods" Url="html/Methods_T_Voxity_API_ApiSessionException.htm" />
+      <HelpTOCNode Title="ApiSessionException Events" Url="html/Events_T_Voxity_API_ApiSessionException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f32a6237-9bf3-46f2-9a33-2bb8ac0da9db" Title="ApiTooManyRequestException Class" Url="html/T_Voxity_API_ApiTooManyRequestException.htm">
+      <HelpTOCNode Title="ApiTooManyRequestException Constructor " Url="html/M_Voxity_API_ApiTooManyRequestException__ctor.htm" />
+      <HelpTOCNode Title="ApiTooManyRequestException Properties" Url="html/Properties_T_Voxity_API_ApiTooManyRequestException.htm" />
+      <HelpTOCNode Title="ApiTooManyRequestException Methods" Url="html/Methods_T_Voxity_API_ApiTooManyRequestException.htm" />
+      <HelpTOCNode Title="ApiTooManyRequestException Events" Url="html/Events_T_Voxity_API_ApiTooManyRequestException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a21f0384-b9c0-48ad-a57a-553caf3ac7d1" Title="ClientIdSecretException Class" Url="html/T_Voxity_API_ClientIdSecretException.htm">
+      <HelpTOCNode Title="ClientIdSecretException Constructor " Url="html/M_Voxity_API_ClientIdSecretException__ctor.htm" />
+      <HelpTOCNode Title="ClientIdSecretException Properties" Url="html/Properties_T_Voxity_API_ClientIdSecretException.htm" />
+      <HelpTOCNode Title="ClientIdSecretException Methods" Url="html/Methods_T_Voxity_API_ClientIdSecretException.htm" />
+      <HelpTOCNode Title="ClientIdSecretException Events" Url="html/Events_T_Voxity_API_ClientIdSecretException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e728c694-7f01-4c87-a3d6-e4ac2233fcd5" Title="IApiSession Interface" Url="html/T_Voxity_API_IApiSession.htm">
+      <HelpTOCNode Id="f42508f0-422d-44cf-895d-61e6372f1e76" Title="IApiSession Properties" Url="html/Properties_T_Voxity_API_IApiSession.htm">
+        <HelpTOCNode Title="AccessToken Property " Url="html/P_Voxity_API_IApiSession_AccessToken.htm" />
+        <HelpTOCNode Title="ClientId Property " Url="html/P_Voxity_API_IApiSession_ClientId.htm" />
+        <HelpTOCNode Title="ClientSecret Property " Url="html/P_Voxity_API_IApiSession_ClientSecret.htm" />
+        <HelpTOCNode Title="HostRedirect Property " Url="html/P_Voxity_API_IApiSession_HostRedirect.htm" />
+        <HelpTOCNode Title="PortRedirect Property " Url="html/P_Voxity_API_IApiSession_PortRedirect.htm" />
+        <HelpTOCNode Title="RefreshToken Property " Url="html/P_Voxity_API_IApiSession_RefreshToken.htm" />
+        <HelpTOCNode Title="TokenExpirationDate Property " Url="html/P_Voxity_API_IApiSession_TokenExpirationDate.htm" />
+        <HelpTOCNode Title="UriRedirect Property " Url="html/P_Voxity_API_IApiSession_UriRedirect.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4878da18-1960-4f34-ba41-f4dbbc7b741b" Title="IApiSession Methods" Url="html/Methods_T_Voxity_API_IApiSession.htm">
+        <HelpTOCNode Title="Request Method " Url="html/M_Voxity_API_IApiSession_Request.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f352383-0055-4cc4-87a0-c61dc52a0832" Title="RefreshTokenException Class" Url="html/T_Voxity_API_RefreshTokenException.htm">
+      <HelpTOCNode Title="RefreshTokenException Constructor " Url="html/M_Voxity_API_RefreshTokenException__ctor.htm" />
+      <HelpTOCNode Title="RefreshTokenException Properties" Url="html/Properties_T_Voxity_API_RefreshTokenException.htm" />
+      <HelpTOCNode Title="RefreshTokenException Methods" Url="html/Methods_T_Voxity_API_RefreshTokenException.htm" />
+      <HelpTOCNode Title="RefreshTokenException Events" Url="html/Events_T_Voxity_API_RefreshTokenException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="4e1e6371-8eaf-455b-ba96-b91b7dc532ea" Title="Voxity.API.EndPoints" Url="html/N_Voxity_API_EndPoints.htm">
+    <HelpTOCNode Id="70784fba-227a-4062-a214-6a11457e0415" Title="Authentication Class" Url="html/T_Voxity_API_EndPoints_Authentication.htm">
+      <HelpTOCNode Title="Authentication Constructor " Url="html/M_Voxity_API_EndPoints_Authentication__ctor.htm" />
+      <HelpTOCNode Id="64f8cfac-9c58-4a89-ba6e-8010c030e1fd" Title="Authentication Methods" Url="html/Methods_T_Voxity_API_EndPoints_Authentication.htm">
+        <HelpTOCNode Title="Authenticate Method " Url="html/M_Voxity_API_EndPoints_Authentication_Authenticate.htm" />
+        <HelpTOCNode Title="CheckUserLogged Method " Url="html/M_Voxity_API_EndPoints_Authentication_CheckUserLogged.htm" />
+        <HelpTOCNode Title="Logout Method " Url="html/M_Voxity_API_EndPoints_Authentication_Logout.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="775ae318-974d-4fd3-8865-aef66c0af22f" Title="Calls Class" Url="html/T_Voxity_API_EndPoints_Calls.htm">
+      <HelpTOCNode Title="Calls Constructor " Url="html/M_Voxity_API_EndPoints_Calls__ctor.htm" />
+      <HelpTOCNode Id="10d5906b-6d8a-4f0f-bdc6-b31141fc26aa" Title="Calls Methods" Url="html/Methods_T_Voxity_API_EndPoints_Calls.htm">
+        <HelpTOCNode Title="ChannelById Method " Url="html/M_Voxity_API_EndPoints_Calls_ChannelById.htm" />
+        <HelpTOCNode Title="ChannelList Method " Url="html/M_Voxity_API_EndPoints_Calls_ChannelList.htm" />
+        <HelpTOCNode Title="CreateChannel Method " Url="html/M_Voxity_API_EndPoints_Calls_CreateChannel.htm" />
+        <HelpTOCNode Title="Logs Method " Url="html/M_Voxity_API_EndPoints_Calls_Logs.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="aa01face-205e-4485-b9d6-6ac2027fa79d" Title="Contacts Class" Url="html/T_Voxity_API_EndPoints_Contacts.htm">
+      <HelpTOCNode Title="Contacts Constructor " Url="html/M_Voxity_API_EndPoints_Contacts__ctor.htm" />
+      <HelpTOCNode Id="b3740182-5502-4512-aaab-e43a45cc4265" Title="Contacts Methods" Url="html/Methods_T_Voxity_API_EndPoints_Contacts.htm">
+        <HelpTOCNode Title="ContactById Method " Url="html/M_Voxity_API_EndPoints_Contacts_ContactById.htm" />
+        <HelpTOCNode Title="ContactList Method " Url="html/M_Voxity_API_EndPoints_Contacts_ContactList.htm" />
+        <HelpTOCNode Title="CreateContact Method " Url="html/M_Voxity_API_EndPoints_Contacts_CreateContact.htm" />
+        <HelpTOCNode Title="DeleteContact Method " Url="html/M_Voxity_API_EndPoints_Contacts_DeleteContact.htm" />
+        <HelpTOCNode Title="UpdateContact Method " Url="html/M_Voxity_API_EndPoints_Contacts_UpdateContact.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d87a86e0-f76e-434c-9bde-12fe85cb9bca" Title="Devices Class" Url="html/T_Voxity_API_EndPoints_Devices.htm">
+      <HelpTOCNode Title="Devices Constructor " Url="html/M_Voxity_API_EndPoints_Devices__ctor.htm" />
+      <HelpTOCNode Id="34cee0a4-45f3-4181-b7e8-57fe93340713" Title="Devices Methods" Url="html/Methods_T_Voxity_API_EndPoints_Devices.htm">
+        <HelpTOCNode Title="DeviceById Method " Url="html/M_Voxity_API_EndPoints_Devices_DeviceById.htm" />
+        <HelpTOCNode Title="DeviceList Method " Url="html/M_Voxity_API_EndPoints_Devices_DeviceList.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="89919601-73f8-4ae8-aaca-e76676600ae6" Title="Sms Class" Url="html/T_Voxity_API_EndPoints_Sms.htm">
+      <HelpTOCNode Title="Sms Constructor " Url="html/M_Voxity_API_EndPoints_Sms__ctor.htm" />
+      <HelpTOCNode Id="2c14a49e-5ad3-43c2-9098-d6f599401cef" Title="Sms Methods" Url="html/Methods_T_Voxity_API_EndPoints_Sms.htm">
+        <HelpTOCNode Title="DeleteMessage Method " Url="html/M_Voxity_API_EndPoints_Sms_DeleteMessage.htm" />
+        <HelpTOCNode Title="DeleteResponse Method " Url="html/M_Voxity_API_EndPoints_Sms_DeleteResponse.htm" />
+        <HelpTOCNode Title="EmitMessageById Method " Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageById.htm" />
+        <HelpTOCNode Title="EmitMessageList Method " Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageList.htm" />
+        <HelpTOCNode Title="ResponseById Method " Url="html/M_Voxity_API_EndPoints_Sms_ResponseById.htm" />
+        <HelpTOCNode Title="ResponseOfEmitId Method " Url="html/M_Voxity_API_EndPoints_Sms_ResponseOfEmitId.htm" />
+        <HelpTOCNode Title="ResponsesMessagesList Method " Url="html/M_Voxity_API_EndPoints_Sms_ResponsesMessagesList.htm" />
+        <HelpTOCNode Title="SendMessage Method " Url="html/M_Voxity_API_EndPoints_Sms_SendMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4497c797-f8fc-4fbd-9447-f1f75103cca8" Title="Tokens Class" Url="html/T_Voxity_API_EndPoints_Tokens.htm">
+      <HelpTOCNode Title="Tokens Constructor " Url="html/M_Voxity_API_EndPoints_Tokens__ctor.htm" />
+      <HelpTOCNode Id="7140cae8-bc0d-461c-bf90-2215e185b7ec" Title="Tokens Properties" Url="html/Properties_T_Voxity_API_EndPoints_Tokens.htm">
+        <HelpTOCNode Title="TokenAuthorization Property " Url="html/P_Voxity_API_EndPoints_Tokens_TokenAuthorization.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="21c850a7-4d4c-49a5-b651-dc3181a20386" Title="Tokens Methods" Url="html/Methods_T_Voxity_API_EndPoints_Tokens.htm">
+        <HelpTOCNode Title="AskAuthorization Method " Url="html/M_Voxity_API_EndPoints_Tokens_AskAuthorization.htm" />
+        <HelpTOCNode Title="AuthenticationStatus Method " Url="html/M_Voxity_API_EndPoints_Tokens_AuthenticationStatus.htm" />
+        <HelpTOCNode Title="GetAccessToken Method " Url="html/M_Voxity_API_EndPoints_Tokens_GetAccessToken.htm" />
+        <HelpTOCNode Title="RefreshAccessToken Method " Url="html/M_Voxity_API_EndPoints_Tokens_RefreshAccessToken.htm" />
+        <HelpTOCNode Title="UserDecision Method " Url="html/M_Voxity_API_EndPoints_Tokens_UserDecision.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="29daaabf-9c10-40ad-8289-82f789c03452" Title="Users Class" Url="html/T_Voxity_API_EndPoints_Users.htm">
+      <HelpTOCNode Title="Users Constructor " Url="html/M_Voxity_API_EndPoints_Users__ctor.htm" />
+      <HelpTOCNode Id="dce557c2-be83-4d02-86a2-8e91ddcf5050" Title="Users Methods" Url="html/Methods_T_Voxity_API_EndPoints_Users.htm">
+        <HelpTOCNode Title="WhoAmI Method " Url="html/M_Voxity_API_EndPoints_Users_WhoAmI.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ee3d2d1-e7e3-4951-904d-613ba3faf761" Title="Vms Class" Url="html/T_Voxity_API_EndPoints_Vms.htm">
+      <HelpTOCNode Title="Vms Constructor " Url="html/M_Voxity_API_EndPoints_Vms__ctor.htm" />
+      <HelpTOCNode Id="a24efecf-67b2-4f86-93cf-b40cafc7a432" Title="Vms Methods" Url="html/Methods_T_Voxity_API_EndPoints_Vms.htm">
+        <HelpTOCNode Title="DeleteFile Method " Url="html/M_Voxity_API_EndPoints_Vms_DeleteFile.htm" />
+        <HelpTOCNode Title="FileById Method " Url="html/M_Voxity_API_EndPoints_Vms_FileById.htm" />
+        <HelpTOCNode Title="FilesList Method " Url="html/M_Voxity_API_EndPoints_Vms_FilesList.htm" />
+        <HelpTOCNode Title="MessagesList Method " Url="html/M_Voxity_API_EndPoints_Vms_MessagesList.htm" />
+        <HelpTOCNode Title="ModifyFile Method " Url="html/M_Voxity_API_EndPoints_Vms_ModifyFile.htm" />
+        <HelpTOCNode Title="SendMessage Method " Url="html/M_Voxity_API_EndPoints_Vms_SendMessage.htm" />
+        <HelpTOCNode Title="UploadSoundFile Method " Url="html/M_Voxity_API_EndPoints_Vms_UploadSoundFile.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e945db46-1e6b-4be6-9955-bc9be8971ecc" Title="Voxity.API.Models" Url="html/N_Voxity_API_Models.htm">
+    <HelpTOCNode Id="b621be30-6901-42d2-a742-dec11cf88a45" Title="AccessToken Class" Url="html/T_Voxity_API_Models_AccessToken.htm">
+      <HelpTOCNode Title="AccessToken Constructor " Url="html/M_Voxity_API_Models_AccessToken__ctor.htm" />
+      <HelpTOCNode Id="481a21cd-3906-4b96-907d-e9149c1539d5" Title="AccessToken Properties" Url="html/Properties_T_Voxity_API_Models_AccessToken.htm">
+        <HelpTOCNode Title="access_token Property " Url="html/P_Voxity_API_Models_AccessToken_access_token.htm" />
+        <HelpTOCNode Title="expires_in Property " Url="html/P_Voxity_API_Models_AccessToken_expires_in.htm" />
+        <HelpTOCNode Title="refresh_token Property " Url="html/P_Voxity_API_Models_AccessToken_refresh_token.htm" />
+        <HelpTOCNode Title="token_type Property " Url="html/P_Voxity_API_Models_AccessToken_token_type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c576cc4-ab1c-46af-bae3-a604b102773a" Title="Channel Class" Url="html/T_Voxity_API_Models_Channel.htm">
+      <HelpTOCNode Title="Channel Constructor " Url="html/M_Voxity_API_Models_Channel__ctor.htm" />
+      <HelpTOCNode Id="404fee29-9f70-4ae3-8574-1195f685c6d7" Title="Channel Properties" Url="html/Properties_T_Voxity_API_Models_Channel.htm">
+        <HelpTOCNode Title="caller_name Property " Url="html/P_Voxity_API_Models_Channel_caller_name.htm" />
+        <HelpTOCNode Title="caller_num Property " Url="html/P_Voxity_API_Models_Channel_caller_num.htm" />
+        <HelpTOCNode Title="channel_id Property " Url="html/P_Voxity_API_Models_Channel_channel_id.htm" />
+        <HelpTOCNode Title="channel_state Property " Url="html/P_Voxity_API_Models_Channel_channel_state.htm" />
+        <HelpTOCNode Title="channelstatedesc Property " Url="html/P_Voxity_API_Models_Channel_channelstatedesc.htm" />
+        <HelpTOCNode Title="exten Property " Url="html/P_Voxity_API_Models_Channel_exten.htm" />
+        <HelpTOCNode Title="has_music_onhold Property " Url="html/P_Voxity_API_Models_Channel_has_music_onhold.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_Channel_id.htm" />
+        <HelpTOCNode Title="is_external_channel Property " Url="html/P_Voxity_API_Models_Channel_is_external_channel.htm" />
+        <HelpTOCNode Title="originated_by_incomming_call Property " Url="html/P_Voxity_API_Models_Channel_originated_by_incomming_call.htm" />
+        <HelpTOCNode Title="protocol Property " Url="html/P_Voxity_API_Models_Channel_protocol.htm" />
+        <HelpTOCNode Title="transfer_to Property " Url="html/P_Voxity_API_Models_Channel_transfer_to.htm" />
+        <HelpTOCNode Title="transfer_type Property " Url="html/P_Voxity_API_Models_Channel_transfer_type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d505354-5c86-4eee-a9df-e75341925877" Title="Contact Class" Url="html/T_Voxity_API_Models_Contact.htm">
+      <HelpTOCNode Title="Contact Constructor " Url="html/M_Voxity_API_Models_Contact__ctor.htm" />
+      <HelpTOCNode Id="ff993937-9cc3-4f27-a824-9ce133af6d3a" Title="Contact Properties" Url="html/Properties_T_Voxity_API_Models_Contact.htm">
+        <HelpTOCNode Title="cn Property " Url="html/P_Voxity_API_Models_Contact_cn.htm" />
+        <HelpTOCNode Title="description Property " Url="html/P_Voxity_API_Models_Contact_description.htm" />
+        <HelpTOCNode Title="employeeNumber Property " Url="html/P_Voxity_API_Models_Contact_employeeNumber.htm" />
+        <HelpTOCNode Title="info Property " Url="html/P_Voxity_API_Models_Contact_info.htm" />
+        <HelpTOCNode Title="mail Property " Url="html/P_Voxity_API_Models_Contact_mail.htm" />
+        <HelpTOCNode Title="mobile Property " Url="html/P_Voxity_API_Models_Contact_mobile.htm" />
+        <HelpTOCNode Title="phoneNumberRaccourci Property " Url="html/P_Voxity_API_Models_Contact_phoneNumberRaccourci.htm" />
+        <HelpTOCNode Title="telephoneNumber Property " Url="html/P_Voxity_API_Models_Contact_telephoneNumber.htm" />
+        <HelpTOCNode Title="uid Property " Url="html/P_Voxity_API_Models_Contact_uid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="46197a51-db55-450e-8aa7-730735352397" Title="ContactName Class" Url="html/T_Voxity_API_Models_ContactName.htm">
+      <HelpTOCNode Title="ContactName Constructor " Url="html/M_Voxity_API_Models_ContactName__ctor.htm" />
+      <HelpTOCNode Id="efaf777b-3d20-4e7a-b54f-2cf36380b498" Title="ContactName Properties" Url="html/Properties_T_Voxity_API_Models_ContactName.htm">
+        <HelpTOCNode Title="name Property " Url="html/P_Voxity_API_Models_ContactName_name.htm" />
+        <HelpTOCNode Title="surname Property " Url="html/P_Voxity_API_Models_ContactName_surname.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6164c0aa-51fd-4786-a545-f6c9b99ebe3e" Title="ConvVms Class" Url="html/T_Voxity_API_Models_ConvVms.htm">
+      <HelpTOCNode Title="ConvVms Constructor " Url="html/M_Voxity_API_Models_ConvVms__ctor.htm" />
+      <HelpTOCNode Id="31afc4f5-7e16-43e4-b6f4-7a27e48fd9d0" Title="ConvVms Properties" Url="html/Properties_T_Voxity_API_Models_ConvVms.htm">
+        <HelpTOCNode Title="code Property " Url="html/P_Voxity_API_Models_ConvVms_code.htm" />
+        <HelpTOCNode Title="code_message Property " Url="html/P_Voxity_API_Models_ConvVms_code_message.htm" />
+        <HelpTOCNode Title="decroche Property " Url="html/P_Voxity_API_Models_ConvVms_decroche.htm" />
+        <HelpTOCNode Title="delivery_date Property " Url="html/P_Voxity_API_Models_ConvVms_delivery_date.htm" />
+        <HelpTOCNode Title="duree Property " Url="html/P_Voxity_API_Models_ConvVms_duree.htm" />
+        <HelpTOCNode Title="emitter Property " Url="html/P_Voxity_API_Models_ConvVms_emitter.htm" />
+        <HelpTOCNode Title="erreur Property " Url="html/P_Voxity_API_Models_ConvVms_erreur.htm" />
+        <HelpTOCNode Title="file_id Property " Url="html/P_Voxity_API_Models_ConvVms_file_id.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_ConvVms_id.htm" />
+        <HelpTOCNode Title="phone_number Property " Url="html/P_Voxity_API_Models_ConvVms_phone_number.htm" />
+        <HelpTOCNode Title="send_date Property " Url="html/P_Voxity_API_Models_ConvVms_send_date.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_ConvVms_status.htm" />
+        <HelpTOCNode Title="type_call Property " Url="html/P_Voxity_API_Models_ConvVms_type_call.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="44c1ec98-367c-485e-90bc-55a82afd9308" Title="CreateChannel Class" Url="html/T_Voxity_API_Models_CreateChannel.htm">
+      <HelpTOCNode Title="CreateChannel Constructor " Url="html/M_Voxity_API_Models_CreateChannel__ctor.htm" />
+      <HelpTOCNode Id="01fd1210-3d31-4627-ac90-ce7e7b064712" Title="CreateChannel Properties" Url="html/Properties_T_Voxity_API_Models_CreateChannel.htm">
+        <HelpTOCNode Title="exten Property " Url="html/P_Voxity_API_Models_CreateChannel_exten.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd9d3912-5f16-4211-aea7-4a32f7984e9b" Title="CreateSms Class" Url="html/T_Voxity_API_Models_CreateSms.htm">
+      <HelpTOCNode Title="CreateSms Constructor " Url="html/M_Voxity_API_Models_CreateSms__ctor.htm" />
+      <HelpTOCNode Id="27de72fc-e7cb-4b56-8232-f285daf5022f" Title="CreateSms Properties" Url="html/Properties_T_Voxity_API_Models_CreateSms.htm">
+        <HelpTOCNode Title="content Property " Url="html/P_Voxity_API_Models_CreateSms_content.htm" />
+        <HelpTOCNode Title="emitter Property " Url="html/P_Voxity_API_Models_CreateSms_emitter.htm" />
+        <HelpTOCNode Title="phone_number Property " Url="html/P_Voxity_API_Models_CreateSms_phone_number.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e00b866-c8ea-4dd2-a0af-836784c0b385" Title="DeleteEmitSms Class" Url="html/T_Voxity_API_Models_DeleteEmitSms.htm">
+      <HelpTOCNode Title="DeleteEmitSms Constructor " Url="html/M_Voxity_API_Models_DeleteEmitSms__ctor.htm" />
+      <HelpTOCNode Id="87f5046f-8df9-4a93-a79a-eb873db60c30" Title="DeleteEmitSms Properties" Url="html/Properties_T_Voxity_API_Models_DeleteEmitSms.htm">
+        <HelpTOCNode Title="result Property " Url="html/P_Voxity_API_Models_DeleteEmitSms_result.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_DeleteEmitSms_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="46a6aab7-eb95-409d-97dc-7a19e09f747a" Title="DeleteResponseSms Class" Url="html/T_Voxity_API_Models_DeleteResponseSms.htm">
+      <HelpTOCNode Title="DeleteResponseSms Constructor " Url="html/M_Voxity_API_Models_DeleteResponseSms__ctor.htm" />
+      <HelpTOCNode Id="6ac6d943-d958-4b38-9bcd-63d2ff182e8b" Title="DeleteResponseSms Properties" Url="html/Properties_T_Voxity_API_Models_DeleteResponseSms.htm">
+        <HelpTOCNode Title="result Property " Url="html/P_Voxity_API_Models_DeleteResponseSms_result.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_DeleteResponseSms_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0a1513de-36b2-448a-afa5-ec21eb07eeb7" Title="Device Class" Url="html/T_Voxity_API_Models_Device.htm">
+      <HelpTOCNode Title="Device Constructor " Url="html/M_Voxity_API_Models_Device__ctor.htm" />
+      <HelpTOCNode Id="b224dc2a-3a14-4c3a-af2f-0af47380063e" Title="Device Properties" Url="html/Properties_T_Voxity_API_Models_Device.htm">
+        <HelpTOCNode Title="extension Property " Url="html/P_Voxity_API_Models_Device_extension.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_Device_id.htm" />
+        <HelpTOCNode Title="last_update Property " Url="html/P_Voxity_API_Models_Device_last_update.htm" />
+        <HelpTOCNode Title="state Property " Url="html/P_Voxity_API_Models_Device_state.htm" />
+        <HelpTOCNode Title="state_desc Property " Url="html/P_Voxity_API_Models_Device_state_desc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7602274-0587-4f0b-bcb5-163a989dcad5" Title="EmitSms Class" Url="html/T_Voxity_API_Models_EmitSms.htm">
+      <HelpTOCNode Title="EmitSms Constructor " Url="html/M_Voxity_API_Models_EmitSms__ctor.htm" />
+      <HelpTOCNode Id="810077c3-b8e9-4ba1-a836-8d0a354fc3dc" Title="EmitSms Properties" Url="html/Properties_T_Voxity_API_Models_EmitSms.htm">
+        <HelpTOCNode Title="code Property " Url="html/P_Voxity_API_Models_EmitSms_code.htm" />
+        <HelpTOCNode Title="code_erreur Property " Url="html/P_Voxity_API_Models_EmitSms_code_erreur.htm" />
+        <HelpTOCNode Title="code_message Property " Url="html/P_Voxity_API_Models_EmitSms_code_message.htm" />
+        <HelpTOCNode Title="content Property " Url="html/P_Voxity_API_Models_EmitSms_content.htm" />
+        <HelpTOCNode Title="delivery_date Property " Url="html/P_Voxity_API_Models_EmitSms_delivery_date.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_EmitSms_id.htm" />
+        <HelpTOCNode Title="libelle Property " Url="html/P_Voxity_API_Models_EmitSms_libelle.htm" />
+        <HelpTOCNode Title="nb_sms Property " Url="html/P_Voxity_API_Models_EmitSms_nb_sms.htm" />
+        <HelpTOCNode Title="operateur Property " Url="html/P_Voxity_API_Models_EmitSms_operateur.htm" />
+        <HelpTOCNode Title="phone_number Property " Url="html/P_Voxity_API_Models_EmitSms_phone_number.htm" />
+        <HelpTOCNode Title="send_date Property " Url="html/P_Voxity_API_Models_EmitSms_send_date.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_EmitSms_status.htm" />
+        <HelpTOCNode Title="statut Property " Url="html/P_Voxity_API_Models_EmitSms_statut.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f123dea-bf3a-4a8c-a919-0e3bb8908854" Title="ErrorToken Class" Url="html/T_Voxity_API_Models_ErrorToken.htm">
+      <HelpTOCNode Title="ErrorToken Constructor " Url="html/M_Voxity_API_Models_ErrorToken__ctor.htm" />
+      <HelpTOCNode Id="c6b84970-d164-4395-aa75-dfaf82254c95" Title="ErrorToken Properties" Url="html/Properties_T_Voxity_API_Models_ErrorToken.htm">
+        <HelpTOCNode Title="error Property " Url="html/P_Voxity_API_Models_ErrorToken_error.htm" />
+        <HelpTOCNode Title="error_description Property " Url="html/P_Voxity_API_Models_ErrorToken_error_description.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3905b1bf-d835-40aa-9fe1-ba28803048ec" Title="Log Class" Url="html/T_Voxity_API_Models_Log.htm">
+      <HelpTOCNode Title="Log Constructor " Url="html/M_Voxity_API_Models_Log__ctor.htm" />
+      <HelpTOCNode Id="2f5ab222-9c7e-4de1-9b9a-74425e5c2db8" Title="Log Properties" Url="html/Properties_T_Voxity_API_Models_Log.htm">
+        <HelpTOCNode Title="billsec Property " Url="html/P_Voxity_API_Models_Log_billsec.htm" />
+        <HelpTOCNode Title="calldate Property " Url="html/P_Voxity_API_Models_Log_calldate.htm" />
+        <HelpTOCNode Title="destination Property " Url="html/P_Voxity_API_Models_Log_destination.htm" />
+        <HelpTOCNode Title="duration Property " Url="html/P_Voxity_API_Models_Log_duration.htm" />
+        <HelpTOCNode Title="sens Property " Url="html/P_Voxity_API_Models_Log_sens.htm" />
+        <HelpTOCNode Title="source Property " Url="html/P_Voxity_API_Models_Log_source.htm" />
+        <HelpTOCNode Title="station Property " Url="html/P_Voxity_API_Models_Log_station.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_Log_status.htm" />
+        <HelpTOCNode Title="tag Property " Url="html/P_Voxity_API_Models_Log_tag.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f58640bb-9337-4ba1-9f1b-0f562273d899" Title="LogError Class" Url="html/T_Voxity_API_Models_LogError.htm">
+      <HelpTOCNode Title="LogError Constructor " Url="html/M_Voxity_API_Models_LogError__ctor.htm" />
+      <HelpTOCNode Id="bc576423-f1dc-4890-86e6-3299c3052016" Title="LogError Properties" Url="html/Properties_T_Voxity_API_Models_LogError.htm">
+        <HelpTOCNode Title="msg Property " Url="html/P_Voxity_API_Models_LogError_msg.htm" />
+        <HelpTOCNode Title="param Property " Url="html/P_Voxity_API_Models_LogError_param.htm" />
+        <HelpTOCNode Title="value Property " Url="html/P_Voxity_API_Models_LogError_value.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c2a38b9-7a15-4433-b131-3ed542d7ef7e" Title="ManageContact Class" Url="html/T_Voxity_API_Models_ManageContact.htm">
+      <HelpTOCNode Title="ManageContact Constructor " Url="html/M_Voxity_API_Models_ManageContact__ctor.htm" />
+      <HelpTOCNode Id="55a99ec1-1006-4620-89b0-1f2f84cc9546" Title="ManageContact Properties" Url="html/Properties_T_Voxity_API_Models_ManageContact.htm">
+        <HelpTOCNode Title="uid Property " Url="html/P_Voxity_API_Models_ManageContact_uid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1679b36a-87e0-42be-a6b2-e1ca03abe477" Title="ManageVms Class" Url="html/T_Voxity_API_Models_ManageVms.htm">
+      <HelpTOCNode Title="ManageVms Constructor " Url="html/M_Voxity_API_Models_ManageVms__ctor.htm" />
+      <HelpTOCNode Id="4eb8dfe2-a0cb-423b-8ee6-9952b31596ab" Title="ManageVms Properties" Url="html/Properties_T_Voxity_API_Models_ManageVms.htm">
+        <HelpTOCNode Title="result Property " Url="html/P_Voxity_API_Models_ManageVms_result.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_ManageVms_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8f41d46f-0a9a-411f-ab31-76d36cc461b6" Title="NewChannel Class" Url="html/T_Voxity_API_Models_NewChannel.htm">
+      <HelpTOCNode Title="NewChannel Constructor " Url="html/M_Voxity_API_Models_NewChannel__ctor.htm" />
+      <HelpTOCNode Id="4d41687e-1c31-4d05-b65d-75702490172c" Title="NewChannel Properties" Url="html/Properties_T_Voxity_API_Models_NewChannel.htm">
+        <HelpTOCNode Title="channel_id Property " Url="html/P_Voxity_API_Models_NewChannel_channel_id.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="692dd650-419a-42de-a61a-fab5c7823dbb" Title="NewSms Class" Url="html/T_Voxity_API_Models_NewSms.htm">
+      <HelpTOCNode Title="NewSms Constructor " Url="html/M_Voxity_API_Models_NewSms__ctor.htm" />
+      <HelpTOCNode Id="f389f1a2-afef-4c16-bd5e-6130acbe7a6a" Title="NewSms Properties" Url="html/Properties_T_Voxity_API_Models_NewSms.htm">
+        <HelpTOCNode Title="code Property " Url="html/P_Voxity_API_Models_NewSms_code.htm" />
+        <HelpTOCNode Title="code_message Property " Url="html/P_Voxity_API_Models_NewSms_code_message.htm" />
+        <HelpTOCNode Title="content Property " Url="html/P_Voxity_API_Models_NewSms_content.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_NewSms_id.htm" />
+        <HelpTOCNode Title="nb_sms Property " Url="html/P_Voxity_API_Models_NewSms_nb_sms.htm" />
+        <HelpTOCNode Title="phone_number Property " Url="html/P_Voxity_API_Models_NewSms_phone_number.htm" />
+        <HelpTOCNode Title="send_date Property " Url="html/P_Voxity_API_Models_NewSms_send_date.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_NewSms_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6bfb956b-127d-4cc0-8162-396de788830b" Title="RefreshToken Class" Url="html/T_Voxity_API_Models_RefreshToken.htm">
+      <HelpTOCNode Title="RefreshToken Constructor " Url="html/M_Voxity_API_Models_RefreshToken__ctor.htm" />
+      <HelpTOCNode Id="1eb643dd-fc58-4a45-b5d6-35ae6178b44b" Title="RefreshToken Properties" Url="html/Properties_T_Voxity_API_Models_RefreshToken.htm">
+        <HelpTOCNode Title="access_token Property " Url="html/P_Voxity_API_Models_RefreshToken_access_token.htm" />
+        <HelpTOCNode Title="expires_in Property " Url="html/P_Voxity_API_Models_RefreshToken_expires_in.htm" />
+        <HelpTOCNode Title="token_type Property " Url="html/P_Voxity_API_Models_RefreshToken_token_type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7d3177f7-aaac-42af-922d-9a0709148063" Title="SmsResponses Class" Url="html/T_Voxity_API_Models_SmsResponses.htm">
+      <HelpTOCNode Title="SmsResponses Constructor " Url="html/M_Voxity_API_Models_SmsResponses__ctor.htm" />
+      <HelpTOCNode Id="e4286724-86ef-4d28-a223-d7396ea1e00f" Title="SmsResponses Properties" Url="html/Properties_T_Voxity_API_Models_SmsResponses.htm">
+        <HelpTOCNode Title="content Property " Url="html/P_Voxity_API_Models_SmsResponses_content.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_SmsResponses_id.htm" />
+        <HelpTOCNode Title="id_sms_sent Property " Url="html/P_Voxity_API_Models_SmsResponses_id_sms_sent.htm" />
+        <HelpTOCNode Title="phone_number Property " Url="html/P_Voxity_API_Models_SmsResponses_phone_number.htm" />
+        <HelpTOCNode Title="send_date Property " Url="html/P_Voxity_API_Models_SmsResponses_send_date.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2a24a082-4334-4982-9ee0-4f704b36d8e5" Title="TokenStatus Class" Url="html/T_Voxity_API_Models_TokenStatus.htm">
+      <HelpTOCNode Title="TokenStatus Constructor " Url="html/M_Voxity_API_Models_TokenStatus__ctor.htm" />
+      <HelpTOCNode Id="bebf2f40-71b7-48cf-b6a5-5ed77cd356e3" Title="TokenStatus Properties" Url="html/Properties_T_Voxity_API_Models_TokenStatus.htm">
+        <HelpTOCNode Title="message Property " Url="html/P_Voxity_API_Models_TokenStatus_message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f2281f95-f1b6-4af7-a7e7-c4ab0cb969a6" Title="UploadVms Class" Url="html/T_Voxity_API_Models_UploadVms.htm">
+      <HelpTOCNode Title="UploadVms Constructor " Url="html/M_Voxity_API_Models_UploadVms__ctor.htm" />
+      <HelpTOCNode Id="58b70a4c-10ca-4577-a0a5-780b863acfd8" Title="UploadVms Properties" Url="html/Properties_T_Voxity_API_Models_UploadVms.htm">
+        <HelpTOCNode Title="errors Property " Url="html/P_Voxity_API_Models_UploadVms_errors.htm" />
+        <HelpTOCNode Title="result Property " Url="html/P_Voxity_API_Models_UploadVms_result.htm" />
+        <HelpTOCNode Title="status Property " Url="html/P_Voxity_API_Models_UploadVms_status.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ce23b26-2acf-4014-8e52-8d9aaa0d5978" Title="User Class" Url="html/T_Voxity_API_Models_User.htm">
+      <HelpTOCNode Title="User Constructor " Url="html/M_Voxity_API_Models_User__ctor.htm" />
+      <HelpTOCNode Id="1f10a69e-6966-42f6-a99b-bb997c4210db" Title="User Properties" Url="html/Properties_T_Voxity_API_Models_User.htm">
+        <HelpTOCNode Title="country Property " Url="html/P_Voxity_API_Models_User_country.htm" />
+        <HelpTOCNode Title="creation_date Property " Url="html/P_Voxity_API_Models_User_creation_date.htm" />
+        <HelpTOCNode Title="description Property " Url="html/P_Voxity_API_Models_User_description.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_User_id.htm" />
+        <HelpTOCNode Title="internalExtension Property " Url="html/P_Voxity_API_Models_User_internalExtension.htm" />
+        <HelpTOCNode Title="is_active Property " Url="html/P_Voxity_API_Models_User_is_active.htm" />
+        <HelpTOCNode Title="is_admin Property " Url="html/P_Voxity_API_Models_User_is_admin.htm" />
+        <HelpTOCNode Title="last_login Property " Url="html/P_Voxity_API_Models_User_last_login.htm" />
+        <HelpTOCNode Title="mail Property " Url="html/P_Voxity_API_Models_User_mail.htm" />
+        <HelpTOCNode Title="mobilePhoneNumber Property " Url="html/P_Voxity_API_Models_User_mobilePhoneNumber.htm" />
+        <HelpTOCNode Title="name Property " Url="html/P_Voxity_API_Models_User_name.htm" />
+        <HelpTOCNode Title="otherPhoneNumber Property " Url="html/P_Voxity_API_Models_User_otherPhoneNumber.htm" />
+        <HelpTOCNode Title="telephoneNumber_id Property " Url="html/P_Voxity_API_Models_User_telephoneNumber_id.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6706b618-c25b-4f89-bd1f-55eb768d6344" Title="VmsFile Class" Url="html/T_Voxity_API_Models_VmsFile.htm">
+      <HelpTOCNode Title="VmsFile Constructor " Url="html/M_Voxity_API_Models_VmsFile__ctor.htm" />
+      <HelpTOCNode Id="fd69d728-af64-4e27-b408-74cb8db6edbd" Title="VmsFile Properties" Url="html/Properties_T_Voxity_API_Models_VmsFile.htm">
+        <HelpTOCNode Title="description Property " Url="html/P_Voxity_API_Models_VmsFile_description.htm" />
+        <HelpTOCNode Title="filename Property " Url="html/P_Voxity_API_Models_VmsFile_filename.htm" />
+        <HelpTOCNode Title="id Property " Url="html/P_Voxity_API_Models_VmsFile_id.htm" />
+        <HelpTOCNode Title="send_date Property " Url="html/P_Voxity_API_Models_VmsFile_send_date.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="14a87483-408c-41d3-a506-1e8fd79177a7" Title="Voxity.API.Utils" Url="html/N_Voxity_API_Utils.htm">
+    <HelpTOCNode Id="c24dddb5-4ead-49ef-91bd-89d383bba061" Title="Converter Class" Url="html/T_Voxity_API_Utils_Converter.htm">
+      <HelpTOCNode Title="Converter Constructor " Url="html/M_Voxity_API_Utils_Converter__ctor.htm" />
+      <HelpTOCNode Id="d6c8a05f-a984-4cda-8ef3-b48734f4ec5b" Title="Converter Methods" Url="html/Methods_T_Voxity_API_Utils_Converter.htm">
+        <HelpTOCNode Title="ConvertPhone Method " Url="html/M_Voxity_API_Utils_Converter_ConvertPhone.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cd5c5432-2195-41dd-9512-5d5db811bac4" Title="Filter Class" Url="html/T_Voxity_API_Utils_Filter.htm">
+      <HelpTOCNode Title="Filter Constructor " Url="html/M_Voxity_API_Utils_Filter__ctor.htm" />
+      <HelpTOCNode Id="66a45679-75de-40a3-9ebb-768afa6a04ad" Title="Filter Methods" Url="html/Methods_T_Voxity_API_Utils_Filter.htm">
+        <HelpTOCNode Title="ValidMail Method " Url="html/M_Voxity_API_Utils_Filter_ValidMail.htm" />
+        <HelpTOCNode Title="ValidPhone Method " Url="html/M_Voxity_API_Utils_Filter_ValidPhone.htm" />
+        <HelpTOCNode Title="ValidRac Method " Url="html/M_Voxity_API_Utils_Filter_ValidRac.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

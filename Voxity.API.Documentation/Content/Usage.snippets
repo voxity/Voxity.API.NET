@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is an example code snippets file -->
+<examples>
+  <item id="Voxity.API#Create">
+    <sampleCode language="CSharp">
+      using Voxity.API;
+
+      public class ApiManager()
+      {
+
+          private static Voxity.API.ApiSession session;
+
+          public static Voxity.API.ApiSession Session
+          {
+              get
+              {
+                  if (session == null)
+                  {
+                      session = new Voxity.API.ApiSession(
+                          
+                          // Mandatory propertys
+                          clientId: "XXXXXXXXXXXXXXXXXXXX",
+                          clientSecret: "XXXXXXXXXXXXXXXXXXXX",
+                          hostRedirect: "Host_IP_or_Name",
+                          hostPort: [0-65500],
+
+                          // Optionals propertys (if you never stores there values it can be null)
+                          accessToken: "XXXXXXXXXXXXXXXXXXXX", // can be the value of your last AccessToken stored
+                          refreshToken: "XXXXXXXXXXXXXXXXXXXX" // can be the value of your last RefreshToken stored
+                          
+                      );
+                  }
+                  else // Optionnal too, use it if you've stored your tokens the last time
+                  {
+                      // Use this statement to overwrite the last Access Token value stored
+                      if(oldAccessTokenStore != session.AccessToken)
+                      {
+                          oldAccessTokenStore = session.AccessToken;
+                      }
+
+                      // Use this condition to overwrite the last Refresh Token value stored
+                      if (oldRefreshTokenStore != session.RefreshToken)
+                      {
+                          oldRefreshTokenStore = session.RefreshToken;
+                      }
+                  }
+                  return session;
+              }
+          }
+      }
+    </sampleCode>
+  </item>
+
+  <item id="Voxity.API#Connect">
+    <sampleCode language="CSharp">
+      // API's code previously returned in parameter of your uri redirect
+      ApiManager.Session.Connect(code);
+    </sampleCode>
+  </item>
+  
+  <item id="Voxity.API#EndpointSynthaxe">
+    <sampleCode language="CSharp">
+      ApiManager.Session.EndPointClass.EndPointMethod(arguments);
+    </sampleCode>
+  </item>
+
+  <item id="Voxity.API#EndpointSynthaxeType">
+    <sampleCode language="CSharp">
+      Models.Type obj = ApiManager.Session.EndPointClass.EndPointMethod(arguments);
+    </sampleCode>
+  </item>
+
+  <item id="Voxity.API#ExampleEndpoint">
+    <sampleCode language="CSharp">
+      Models.User user = ApiManager.Session.Users.who_am_i();
+      Console.WriteLine("Hello " + user.name + " !");
+    </sampleCode>
+  </item>
+
+  <item id="Voxity.API#ExampleEndpointList">
+    <sampleCode language="CSharp">
+      List&lt;Models.Contact> contacts = ApiManager.Session.Contacts.contact_list();
+
+      // Display contact info
+      foreach (contact in contacts) {
+          Console.WriteLine(contact.cn + ":" + contact.mail);
+      }
+    </sampleCode>
+  </item>
+
+  <item id="Voxity.API#ExampleCall">
+    <sampleCode language="CSharp">
+      ApiManager.Session.Calls.create_channel("+33 6 12 34 56 78");
+    </sampleCode>
+  </item>
+</examples>
+

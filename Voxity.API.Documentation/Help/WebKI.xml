@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccessToken class">
+    <HelpKINode Title="AccessToken Class" Url="html/T_Voxity_API_Models_AccessToken.htm" />
+    <HelpKINode Title="about AccessToken class" Url="html/T_Voxity_API_Models_AccessToken.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_AccessToken__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_AccessToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessToken property">
+    <HelpKINode Title="ApiSession.AccessToken Property " Url="html/P_Voxity_API_ApiSession_AccessToken.htm" />
+    <HelpKINode Title="IApiSession.AccessToken Property " Url="html/P_Voxity_API_IApiSession_AccessToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessToken.AccessToken constructor" Url="html/M_Voxity_API_Models_AccessToken__ctor.htm" />
+  <HelpKINode Title="AccessToken.access_token property" Url="html/P_Voxity_API_Models_AccessToken_access_token.htm" />
+  <HelpKINode Title="AccessToken.expires_in property" Url="html/P_Voxity_API_Models_AccessToken_expires_in.htm" />
+  <HelpKINode Title="AccessToken.refresh_token property" Url="html/P_Voxity_API_Models_AccessToken_refresh_token.htm" />
+  <HelpKINode Title="AccessToken.token_type property" Url="html/P_Voxity_API_Models_AccessToken_token_type.htm" />
+  <HelpKINode Title="AccessTokenException class">
+    <HelpKINode Title="AccessTokenException Class" Url="html/T_Voxity_API_AccessTokenException.htm" />
+    <HelpKINode Title="about AccessTokenException class" Url="html/T_Voxity_API_AccessTokenException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_AccessTokenException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_AccessTokenException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_AccessTokenException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_AccessTokenException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessTokenException.AccessTokenException constructor" Url="html/M_Voxity_API_AccessTokenException__ctor.htm" />
+  <HelpKINode Title="access_token property">
+    <HelpKINode Title="AccessToken.access_token Property " Url="html/P_Voxity_API_Models_AccessToken_access_token.htm" />
+    <HelpKINode Title="RefreshToken.access_token Property " Url="html/P_Voxity_API_Models_RefreshToken_access_token.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiAdminException class">
+    <HelpKINode Title="ApiAdminException Class" Url="html/T_Voxity_API_ApiAdminException.htm" />
+    <HelpKINode Title="about ApiAdminException class" Url="html/T_Voxity_API_ApiAdminException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiAdminException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiAdminException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiAdminException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiAdminException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiAdminException.ApiAdminException constructor" Url="html/M_Voxity_API_ApiAdminException__ctor.htm" />
+  <HelpKINode Title="ApiArgumentException class">
+    <HelpKINode Title="ApiArgumentException Class" Url="html/T_Voxity_API_ApiArgumentException.htm" />
+    <HelpKINode Title="about ApiArgumentException class" Url="html/T_Voxity_API_ApiArgumentException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiArgumentException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiArgumentException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiArgumentException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiArgumentException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiArgumentException.ApiArgumentException constructor" Url="html/M_Voxity_API_ApiArgumentException__ctor.htm" />
+  <HelpKINode Title="ApiAuthenticateException class">
+    <HelpKINode Title="ApiAuthenticateException Class" Url="html/T_Voxity_API_ApiAuthenticateException.htm" />
+    <HelpKINode Title="about ApiAuthenticateException class" Url="html/T_Voxity_API_ApiAuthenticateException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiAuthenticateException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiAuthenticateException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiAuthenticateException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiAuthenticateException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiAuthenticateException.ApiAuthenticateException constructor" Url="html/M_Voxity_API_ApiAuthenticateException__ctor.htm" />
+  <HelpKINode Title="ApiErrorResponseException class">
+    <HelpKINode Title="ApiErrorResponseException Class" Url="html/T_Voxity_API_ApiErrorResponseException.htm" />
+    <HelpKINode Title="about ApiErrorResponseException class" Url="html/T_Voxity_API_ApiErrorResponseException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Voxity_API_ApiErrorResponseException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiErrorResponseException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiErrorResponseException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiErrorResponseException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiErrorResponseException.ApiErrorResponseException constructor" Url="html/Overload_Voxity_API_ApiErrorResponseException__ctor.htm" />
+  <HelpKINode Title="ApiInternalErrorException class">
+    <HelpKINode Title="ApiInternalErrorException Class" Url="html/T_Voxity_API_ApiInternalErrorException.htm" />
+    <HelpKINode Title="about ApiInternalErrorException class" Url="html/T_Voxity_API_ApiInternalErrorException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiInternalErrorException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiInternalErrorException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiInternalErrorException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiInternalErrorException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiInternalErrorException.ApiInternalErrorException constructor" Url="html/M_Voxity_API_ApiInternalErrorException__ctor.htm" />
+  <HelpKINode Title="ApiResponse(Of T) class">
+    <HelpKINode Title="ApiResponse(T) Class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="about ApiResponse(Of T) class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiResponse_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiResponse(Of T).ApiResponse constructor" Url="html/M_Voxity_API_ApiResponse_1__ctor.htm" />
+  <HelpKINode Title="ApiResponse(Of T).data field" Url="html/F_Voxity_API_ApiResponse_1_data.htm" />
+  <HelpKINode Title="ApiResponse(Of T).error field" Url="html/F_Voxity_API_ApiResponse_1_error.htm" />
+  <HelpKINode Title="ApiResponse(Of T).Errors method" Url="html/M_Voxity_API_ApiResponse_1_Errors.htm" />
+  <HelpKINode Title="ApiResponse(Of T).result field" Url="html/F_Voxity_API_ApiResponse_1_result.htm" />
+  <HelpKINode Title="ApiResponse(Of T).Results method" Url="html/M_Voxity_API_ApiResponse_1_Results.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt; class">
+    <HelpKINode Title="ApiResponse(T) Class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="about ApiResponse&lt;T&gt; class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiResponse_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Voxity_API_ApiResponse_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiResponse&lt;T&gt;.ApiResponse constructor" Url="html/M_Voxity_API_ApiResponse_1__ctor.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt;.data field" Url="html/F_Voxity_API_ApiResponse_1_data.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt;.error field" Url="html/F_Voxity_API_ApiResponse_1_error.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt;.Errors method" Url="html/M_Voxity_API_ApiResponse_1_Errors.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt;.result field" Url="html/F_Voxity_API_ApiResponse_1_result.htm" />
+  <HelpKINode Title="ApiResponse&lt;T&gt;.Results method" Url="html/M_Voxity_API_ApiResponse_1_Results.htm" />
+  <HelpKINode Title="ApiSession class">
+    <HelpKINode Title="ApiSession Class" Url="html/T_Voxity_API_ApiSession.htm" />
+    <HelpKINode Title="about ApiSession class" Url="html/T_Voxity_API_ApiSession.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiSession__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiSession.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiSession.AccessToken property" Url="html/P_Voxity_API_ApiSession_AccessToken.htm" />
+  <HelpKINode Title="ApiSession.ApiSession constructor" Url="html/M_Voxity_API_ApiSession__ctor.htm" />
+  <HelpKINode Title="ApiSession.AskAuthUri property" Url="html/P_Voxity_API_ApiSession_AskAuthUri.htm" />
+  <HelpKINode Title="ApiSession.Authentication property" Url="html/P_Voxity_API_ApiSession_Authentication.htm" />
+  <HelpKINode Title="ApiSession.AutoRefresh method" Url="html/M_Voxity_API_ApiSession_AutoRefresh.htm" />
+  <HelpKINode Title="ApiSession.Calls property" Url="html/P_Voxity_API_ApiSession_Calls.htm" />
+  <HelpKINode Title="ApiSession.ClientId property" Url="html/P_Voxity_API_ApiSession_ClientId.htm" />
+  <HelpKINode Title="ApiSession.ClientSecret property" Url="html/P_Voxity_API_ApiSession_ClientSecret.htm" />
+  <HelpKINode Title="ApiSession.Connect method" Url="html/M_Voxity_API_ApiSession_Connect.htm" />
+  <HelpKINode Title="ApiSession.Contacts property" Url="html/P_Voxity_API_ApiSession_Contacts.htm" />
+  <HelpKINode Title="ApiSession.Devices property" Url="html/P_Voxity_API_ApiSession_Devices.htm" />
+  <HelpKINode Title="ApiSession.Disconnect method" Url="html/M_Voxity_API_ApiSession_Disconnect.htm" />
+  <HelpKINode Title="ApiSession.HostRedirect property" Url="html/P_Voxity_API_ApiSession_HostRedirect.htm" />
+  <HelpKINode Title="ApiSession.HttpMethod enumeration" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="ApiSession.PortRedirect property" Url="html/P_Voxity_API_ApiSession_PortRedirect.htm" />
+  <HelpKINode Title="ApiSession.RefreshToken property" Url="html/P_Voxity_API_ApiSession_RefreshToken.htm" />
+  <HelpKINode Title="ApiSession.Request method" Url="html/M_Voxity_API_ApiSession_Request.htm" />
+  <HelpKINode Title="ApiSession.Sms property" Url="html/P_Voxity_API_ApiSession_Sms.htm" />
+  <HelpKINode Title="ApiSession.TokenExpirationDate property" Url="html/P_Voxity_API_ApiSession_TokenExpirationDate.htm" />
+  <HelpKINode Title="ApiSession.Tokens property" Url="html/P_Voxity_API_ApiSession_Tokens.htm" />
+  <HelpKINode Title="ApiSession.UriRedirect property" Url="html/P_Voxity_API_ApiSession_UriRedirect.htm" />
+  <HelpKINode Title="ApiSession.Users property" Url="html/P_Voxity_API_ApiSession_Users.htm" />
+  <HelpKINode Title="ApiSession.Vms property" Url="html/P_Voxity_API_ApiSession_Vms.htm" />
+  <HelpKINode Title="ApiSessionException class">
+    <HelpKINode Title="ApiSessionException Class" Url="html/T_Voxity_API_ApiSessionException.htm" />
+    <HelpKINode Title="about ApiSessionException class" Url="html/T_Voxity_API_ApiSessionException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Voxity_API_ApiSessionException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiSessionException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiSessionException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiSessionException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiSessionException.ApiSessionException constructor" Url="html/Overload_Voxity_API_ApiSessionException__ctor.htm" />
+  <HelpKINode Title="ApiTooManyRequestException class">
+    <HelpKINode Title="ApiTooManyRequestException Class" Url="html/T_Voxity_API_ApiTooManyRequestException.htm" />
+    <HelpKINode Title="about ApiTooManyRequestException class" Url="html/T_Voxity_API_ApiTooManyRequestException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ApiTooManyRequestException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ApiTooManyRequestException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ApiTooManyRequestException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ApiTooManyRequestException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiTooManyRequestException.ApiTooManyRequestException constructor" Url="html/M_Voxity_API_ApiTooManyRequestException__ctor.htm" />
+  <HelpKINode Title="AskAuthorization method" Url="html/M_Voxity_API_EndPoints_Tokens_AskAuthorization.htm" />
+  <HelpKINode Title="AskAuthUri property" Url="html/P_Voxity_API_ApiSession_AskAuthUri.htm" />
+  <HelpKINode Title="Authenticate method" Url="html/M_Voxity_API_EndPoints_Authentication_Authenticate.htm" />
+  <HelpKINode Title="Authentication class">
+    <HelpKINode Title="Authentication Class" Url="html/T_Voxity_API_EndPoints_Authentication.htm" />
+    <HelpKINode Title="about Authentication class" Url="html/T_Voxity_API_EndPoints_Authentication.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Authentication__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Authentication.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Authentication property" Url="html/P_Voxity_API_ApiSession_Authentication.htm" />
+  <HelpKINode Title="Authentication.Authenticate method" Url="html/M_Voxity_API_EndPoints_Authentication_Authenticate.htm" />
+  <HelpKINode Title="Authentication.Authentication constructor" Url="html/M_Voxity_API_EndPoints_Authentication__ctor.htm" />
+  <HelpKINode Title="Authentication.CheckUserLogged method" Url="html/M_Voxity_API_EndPoints_Authentication_CheckUserLogged.htm" />
+  <HelpKINode Title="Authentication.Logout method" Url="html/M_Voxity_API_EndPoints_Authentication_Logout.htm" />
+  <HelpKINode Title="AuthenticationStatus method" Url="html/M_Voxity_API_EndPoints_Tokens_AuthenticationStatus.htm" />
+  <HelpKINode Title="AutoRefresh method" Url="html/M_Voxity_API_ApiSession_AutoRefresh.htm" />
+  <HelpKINode Title="billsec property" Url="html/P_Voxity_API_Models_Log_billsec.htm" />
+  <HelpKINode Title="calldate property" Url="html/P_Voxity_API_Models_Log_calldate.htm" />
+  <HelpKINode Title="caller_name property" Url="html/P_Voxity_API_Models_Channel_caller_name.htm" />
+  <HelpKINode Title="caller_num property" Url="html/P_Voxity_API_Models_Channel_caller_num.htm" />
+  <HelpKINode Title="Calls class">
+    <HelpKINode Title="Calls Class" Url="html/T_Voxity_API_EndPoints_Calls.htm" />
+    <HelpKINode Title="about Calls class" Url="html/T_Voxity_API_EndPoints_Calls.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Calls__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Calls.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Calls property" Url="html/P_Voxity_API_ApiSession_Calls.htm" />
+  <HelpKINode Title="Calls.Calls constructor" Url="html/M_Voxity_API_EndPoints_Calls__ctor.htm" />
+  <HelpKINode Title="Calls.ChannelById method" Url="html/M_Voxity_API_EndPoints_Calls_ChannelById.htm" />
+  <HelpKINode Title="Calls.ChannelList method" Url="html/M_Voxity_API_EndPoints_Calls_ChannelList.htm" />
+  <HelpKINode Title="Calls.CreateChannel method" Url="html/M_Voxity_API_EndPoints_Calls_CreateChannel.htm" />
+  <HelpKINode Title="Calls.Logs method" Url="html/M_Voxity_API_EndPoints_Calls_Logs.htm" />
+  <HelpKINode Title="Channel class">
+    <HelpKINode Title="Channel Class" Url="html/T_Voxity_API_Models_Channel.htm" />
+    <HelpKINode Title="about Channel class" Url="html/T_Voxity_API_Models_Channel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_Channel__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_Channel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Channel.caller_name property" Url="html/P_Voxity_API_Models_Channel_caller_name.htm" />
+  <HelpKINode Title="Channel.caller_num property" Url="html/P_Voxity_API_Models_Channel_caller_num.htm" />
+  <HelpKINode Title="Channel.Channel constructor" Url="html/M_Voxity_API_Models_Channel__ctor.htm" />
+  <HelpKINode Title="Channel.channelstatedesc property" Url="html/P_Voxity_API_Models_Channel_channelstatedesc.htm" />
+  <HelpKINode Title="Channel.channel_id property" Url="html/P_Voxity_API_Models_Channel_channel_id.htm" />
+  <HelpKINode Title="Channel.channel_state property" Url="html/P_Voxity_API_Models_Channel_channel_state.htm" />
+  <HelpKINode Title="Channel.exten property" Url="html/P_Voxity_API_Models_Channel_exten.htm" />
+  <HelpKINode Title="Channel.has_music_onhold property" Url="html/P_Voxity_API_Models_Channel_has_music_onhold.htm" />
+  <HelpKINode Title="Channel.id property" Url="html/P_Voxity_API_Models_Channel_id.htm" />
+  <HelpKINode Title="Channel.is_external_channel property" Url="html/P_Voxity_API_Models_Channel_is_external_channel.htm" />
+  <HelpKINode Title="Channel.originated_by_incomming_call property" Url="html/P_Voxity_API_Models_Channel_originated_by_incomming_call.htm" />
+  <HelpKINode Title="Channel.protocol property" Url="html/P_Voxity_API_Models_Channel_protocol.htm" />
+  <HelpKINode Title="Channel.transfer_to property" Url="html/P_Voxity_API_Models_Channel_transfer_to.htm" />
+  <HelpKINode Title="Channel.transfer_type property" Url="html/P_Voxity_API_Models_Channel_transfer_type.htm" />
+  <HelpKINode Title="ChannelById method" Url="html/M_Voxity_API_EndPoints_Calls_ChannelById.htm" />
+  <HelpKINode Title="ChannelList method" Url="html/M_Voxity_API_EndPoints_Calls_ChannelList.htm" />
+  <HelpKINode Title="channelstatedesc property" Url="html/P_Voxity_API_Models_Channel_channelstatedesc.htm" />
+  <HelpKINode Title="channel_id property">
+    <HelpKINode Title="Channel.channel_id Property " Url="html/P_Voxity_API_Models_Channel_channel_id.htm" />
+    <HelpKINode Title="NewChannel.channel_id Property " Url="html/P_Voxity_API_Models_NewChannel_channel_id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="channel_state property" Url="html/P_Voxity_API_Models_Channel_channel_state.htm" />
+  <HelpKINode Title="CheckUserLogged method" Url="html/M_Voxity_API_EndPoints_Authentication_CheckUserLogged.htm" />
+  <HelpKINode Title="ClientId property">
+    <HelpKINode Title="ApiSession.ClientId Property " Url="html/P_Voxity_API_ApiSession_ClientId.htm" />
+    <HelpKINode Title="IApiSession.ClientId Property " Url="html/P_Voxity_API_IApiSession_ClientId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientIdSecretException class">
+    <HelpKINode Title="ClientIdSecretException Class" Url="html/T_Voxity_API_ClientIdSecretException.htm" />
+    <HelpKINode Title="about ClientIdSecretException class" Url="html/T_Voxity_API_ClientIdSecretException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_ClientIdSecretException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_ClientIdSecretException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_ClientIdSecretException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_ClientIdSecretException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientIdSecretException.ClientIdSecretException constructor" Url="html/M_Voxity_API_ClientIdSecretException__ctor.htm" />
+  <HelpKINode Title="ClientSecret property">
+    <HelpKINode Title="ApiSession.ClientSecret Property " Url="html/P_Voxity_API_ApiSession_ClientSecret.htm" />
+    <HelpKINode Title="IApiSession.ClientSecret Property " Url="html/P_Voxity_API_IApiSession_ClientSecret.htm" />
+  </HelpKINode>
+  <HelpKINode Title="cn property" Url="html/P_Voxity_API_Models_Contact_cn.htm" />
+  <HelpKINode Title="code property">
+    <HelpKINode Title="ConvVms.code Property " Url="html/P_Voxity_API_Models_ConvVms_code.htm" />
+    <HelpKINode Title="EmitSms.code Property " Url="html/P_Voxity_API_Models_EmitSms_code.htm" />
+    <HelpKINode Title="NewSms.code Property " Url="html/P_Voxity_API_Models_NewSms_code.htm" />
+  </HelpKINode>
+  <HelpKINode Title="code_erreur property" Url="html/P_Voxity_API_Models_EmitSms_code_erreur.htm" />
+  <HelpKINode Title="code_message property">
+    <HelpKINode Title="ConvVms.code_message Property " Url="html/P_Voxity_API_Models_ConvVms_code_message.htm" />
+    <HelpKINode Title="EmitSms.code_message Property " Url="html/P_Voxity_API_Models_EmitSms_code_message.htm" />
+    <HelpKINode Title="NewSms.code_message Property " Url="html/P_Voxity_API_Models_NewSms_code_message.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Connect method" Url="html/M_Voxity_API_ApiSession_Connect.htm" />
+  <HelpKINode Title="Contact class">
+    <HelpKINode Title="Contact Class" Url="html/T_Voxity_API_Models_Contact.htm" />
+    <HelpKINode Title="about Contact class" Url="html/T_Voxity_API_Models_Contact.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_Contact__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_Contact.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contact.cn property" Url="html/P_Voxity_API_Models_Contact_cn.htm" />
+  <HelpKINode Title="Contact.Contact constructor" Url="html/M_Voxity_API_Models_Contact__ctor.htm" />
+  <HelpKINode Title="Contact.description property" Url="html/P_Voxity_API_Models_Contact_description.htm" />
+  <HelpKINode Title="Contact.employeeNumber property" Url="html/P_Voxity_API_Models_Contact_employeeNumber.htm" />
+  <HelpKINode Title="Contact.info property" Url="html/P_Voxity_API_Models_Contact_info.htm" />
+  <HelpKINode Title="Contact.mail property" Url="html/P_Voxity_API_Models_Contact_mail.htm" />
+  <HelpKINode Title="Contact.mobile property" Url="html/P_Voxity_API_Models_Contact_mobile.htm" />
+  <HelpKINode Title="Contact.phoneNumberRaccourci property" Url="html/P_Voxity_API_Models_Contact_phoneNumberRaccourci.htm" />
+  <HelpKINode Title="Contact.telephoneNumber property" Url="html/P_Voxity_API_Models_Contact_telephoneNumber.htm" />
+  <HelpKINode Title="Contact.uid property" Url="html/P_Voxity_API_Models_Contact_uid.htm" />
+  <HelpKINode Title="ContactById method" Url="html/M_Voxity_API_EndPoints_Contacts_ContactById.htm" />
+  <HelpKINode Title="ContactList method" Url="html/M_Voxity_API_EndPoints_Contacts_ContactList.htm" />
+  <HelpKINode Title="ContactName class">
+    <HelpKINode Title="ContactName Class" Url="html/T_Voxity_API_Models_ContactName.htm" />
+    <HelpKINode Title="about ContactName class" Url="html/T_Voxity_API_Models_ContactName.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_ContactName__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_ContactName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContactName.ContactName constructor" Url="html/M_Voxity_API_Models_ContactName__ctor.htm" />
+  <HelpKINode Title="ContactName.name property" Url="html/P_Voxity_API_Models_ContactName_name.htm" />
+  <HelpKINode Title="ContactName.surname property" Url="html/P_Voxity_API_Models_ContactName_surname.htm" />
+  <HelpKINode Title="Contacts class">
+    <HelpKINode Title="Contacts Class" Url="html/T_Voxity_API_EndPoints_Contacts.htm" />
+    <HelpKINode Title="about Contacts class" Url="html/T_Voxity_API_EndPoints_Contacts.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Contacts__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Contacts.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contacts property" Url="html/P_Voxity_API_ApiSession_Contacts.htm" />
+  <HelpKINode Title="Contacts.ContactById method" Url="html/M_Voxity_API_EndPoints_Contacts_ContactById.htm" />
+  <HelpKINode Title="Contacts.ContactList method" Url="html/M_Voxity_API_EndPoints_Contacts_ContactList.htm" />
+  <HelpKINode Title="Contacts.Contacts constructor" Url="html/M_Voxity_API_EndPoints_Contacts__ctor.htm" />
+  <HelpKINode Title="Contacts.CreateContact method" Url="html/M_Voxity_API_EndPoints_Contacts_CreateContact.htm" />
+  <HelpKINode Title="Contacts.DeleteContact method" Url="html/M_Voxity_API_EndPoints_Contacts_DeleteContact.htm" />
+  <HelpKINode Title="Contacts.UpdateContact method" Url="html/M_Voxity_API_EndPoints_Contacts_UpdateContact.htm" />
+  <HelpKINode Title="content property">
+    <HelpKINode Title="CreateSms.content Property " Url="html/P_Voxity_API_Models_CreateSms_content.htm" />
+    <HelpKINode Title="EmitSms.content Property " Url="html/P_Voxity_API_Models_EmitSms_content.htm" />
+    <HelpKINode Title="NewSms.content Property " Url="html/P_Voxity_API_Models_NewSms_content.htm" />
+    <HelpKINode Title="SmsResponses.content Property " Url="html/P_Voxity_API_Models_SmsResponses_content.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Converter class">
+    <HelpKINode Title="Converter Class" Url="html/T_Voxity_API_Utils_Converter.htm" />
+    <HelpKINode Title="about Converter class" Url="html/T_Voxity_API_Utils_Converter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Utils_Converter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_Utils_Converter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Converter.Converter constructor" Url="html/M_Voxity_API_Utils_Converter__ctor.htm" />
+  <HelpKINode Title="Converter.ConvertPhone method" Url="html/M_Voxity_API_Utils_Converter_ConvertPhone.htm" />
+  <HelpKINode Title="ConvertPhone method" Url="html/M_Voxity_API_Utils_Converter_ConvertPhone.htm" />
+  <HelpKINode Title="ConvVms class">
+    <HelpKINode Title="ConvVms Class" Url="html/T_Voxity_API_Models_ConvVms.htm" />
+    <HelpKINode Title="about ConvVms class" Url="html/T_Voxity_API_Models_ConvVms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_ConvVms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_ConvVms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvVms.code property" Url="html/P_Voxity_API_Models_ConvVms_code.htm" />
+  <HelpKINode Title="ConvVms.code_message property" Url="html/P_Voxity_API_Models_ConvVms_code_message.htm" />
+  <HelpKINode Title="ConvVms.ConvVms constructor" Url="html/M_Voxity_API_Models_ConvVms__ctor.htm" />
+  <HelpKINode Title="ConvVms.decroche property" Url="html/P_Voxity_API_Models_ConvVms_decroche.htm" />
+  <HelpKINode Title="ConvVms.delivery_date property" Url="html/P_Voxity_API_Models_ConvVms_delivery_date.htm" />
+  <HelpKINode Title="ConvVms.duree property" Url="html/P_Voxity_API_Models_ConvVms_duree.htm" />
+  <HelpKINode Title="ConvVms.emitter property" Url="html/P_Voxity_API_Models_ConvVms_emitter.htm" />
+  <HelpKINode Title="ConvVms.erreur property" Url="html/P_Voxity_API_Models_ConvVms_erreur.htm" />
+  <HelpKINode Title="ConvVms.file_id property" Url="html/P_Voxity_API_Models_ConvVms_file_id.htm" />
+  <HelpKINode Title="ConvVms.id property" Url="html/P_Voxity_API_Models_ConvVms_id.htm" />
+  <HelpKINode Title="ConvVms.phone_number property" Url="html/P_Voxity_API_Models_ConvVms_phone_number.htm" />
+  <HelpKINode Title="ConvVms.send_date property" Url="html/P_Voxity_API_Models_ConvVms_send_date.htm" />
+  <HelpKINode Title="ConvVms.status property" Url="html/P_Voxity_API_Models_ConvVms_status.htm" />
+  <HelpKINode Title="ConvVms.type_call property" Url="html/P_Voxity_API_Models_ConvVms_type_call.htm" />
+  <HelpKINode Title="country property" Url="html/P_Voxity_API_Models_User_country.htm" />
+  <HelpKINode Title="CreateChannel class">
+    <HelpKINode Title="CreateChannel Class" Url="html/T_Voxity_API_Models_CreateChannel.htm" />
+    <HelpKINode Title="about CreateChannel class" Url="html/T_Voxity_API_Models_CreateChannel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_CreateChannel__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_CreateChannel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateChannel method" Url="html/M_Voxity_API_EndPoints_Calls_CreateChannel.htm" />
+  <HelpKINode Title="CreateChannel.CreateChannel constructor" Url="html/M_Voxity_API_Models_CreateChannel__ctor.htm" />
+  <HelpKINode Title="CreateChannel.exten property" Url="html/P_Voxity_API_Models_CreateChannel_exten.htm" />
+  <HelpKINode Title="CreateContact method" Url="html/M_Voxity_API_EndPoints_Contacts_CreateContact.htm" />
+  <HelpKINode Title="CreateSms class">
+    <HelpKINode Title="CreateSms Class" Url="html/T_Voxity_API_Models_CreateSms.htm" />
+    <HelpKINode Title="about CreateSms class" Url="html/T_Voxity_API_Models_CreateSms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_CreateSms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_CreateSms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateSms.content property" Url="html/P_Voxity_API_Models_CreateSms_content.htm" />
+  <HelpKINode Title="CreateSms.CreateSms constructor" Url="html/M_Voxity_API_Models_CreateSms__ctor.htm" />
+  <HelpKINode Title="CreateSms.emitter property" Url="html/P_Voxity_API_Models_CreateSms_emitter.htm" />
+  <HelpKINode Title="CreateSms.phone_number property" Url="html/P_Voxity_API_Models_CreateSms_phone_number.htm" />
+  <HelpKINode Title="creation_date property" Url="html/P_Voxity_API_Models_User_creation_date.htm" />
+  <HelpKINode Title="data field" Url="html/F_Voxity_API_ApiResponse_1_data.htm" />
+  <HelpKINode Title="decroche property" Url="html/P_Voxity_API_Models_ConvVms_decroche.htm" />
+  <HelpKINode Title="Delete enumeration member" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="DeleteContact method" Url="html/M_Voxity_API_EndPoints_Contacts_DeleteContact.htm" />
+  <HelpKINode Title="DeleteEmitSms class">
+    <HelpKINode Title="DeleteEmitSms Class" Url="html/T_Voxity_API_Models_DeleteEmitSms.htm" />
+    <HelpKINode Title="about DeleteEmitSms class" Url="html/T_Voxity_API_Models_DeleteEmitSms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_DeleteEmitSms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_DeleteEmitSms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteEmitSms.DeleteEmitSms constructor" Url="html/M_Voxity_API_Models_DeleteEmitSms__ctor.htm" />
+  <HelpKINode Title="DeleteEmitSms.result property" Url="html/P_Voxity_API_Models_DeleteEmitSms_result.htm" />
+  <HelpKINode Title="DeleteEmitSms.status property" Url="html/P_Voxity_API_Models_DeleteEmitSms_status.htm" />
+  <HelpKINode Title="DeleteFile method" Url="html/M_Voxity_API_EndPoints_Vms_DeleteFile.htm" />
+  <HelpKINode Title="DeleteMessage method" Url="html/M_Voxity_API_EndPoints_Sms_DeleteMessage.htm" />
+  <HelpKINode Title="DeleteResponse method" Url="html/M_Voxity_API_EndPoints_Sms_DeleteResponse.htm" />
+  <HelpKINode Title="DeleteResponseSms class">
+    <HelpKINode Title="DeleteResponseSms Class" Url="html/T_Voxity_API_Models_DeleteResponseSms.htm" />
+    <HelpKINode Title="about DeleteResponseSms class" Url="html/T_Voxity_API_Models_DeleteResponseSms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_DeleteResponseSms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_DeleteResponseSms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteResponseSms.DeleteResponseSms constructor" Url="html/M_Voxity_API_Models_DeleteResponseSms__ctor.htm" />
+  <HelpKINode Title="DeleteResponseSms.result property" Url="html/P_Voxity_API_Models_DeleteResponseSms_result.htm" />
+  <HelpKINode Title="DeleteResponseSms.status property" Url="html/P_Voxity_API_Models_DeleteResponseSms_status.htm" />
+  <HelpKINode Title="delivery_date property">
+    <HelpKINode Title="ConvVms.delivery_date Property " Url="html/P_Voxity_API_Models_ConvVms_delivery_date.htm" />
+    <HelpKINode Title="EmitSms.delivery_date Property " Url="html/P_Voxity_API_Models_EmitSms_delivery_date.htm" />
+  </HelpKINode>
+  <HelpKINode Title="description property">
+    <HelpKINode Title="Contact.description Property " Url="html/P_Voxity_API_Models_Contact_description.htm" />
+    <HelpKINode Title="User.description Property " Url="html/P_Voxity_API_Models_User_description.htm" />
+    <HelpKINode Title="VmsFile.description Property " Url="html/P_Voxity_API_Models_VmsFile_description.htm" />
+  </HelpKINode>
+  <HelpKINode Title="destination property" Url="html/P_Voxity_API_Models_Log_destination.htm" />
+  <HelpKINode Title="Device class">
+    <HelpKINode Title="Device Class" Url="html/T_Voxity_API_Models_Device.htm" />
+    <HelpKINode Title="about Device class" Url="html/T_Voxity_API_Models_Device.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_Device__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_Device.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Device.Device constructor" Url="html/M_Voxity_API_Models_Device__ctor.htm" />
+  <HelpKINode Title="Device.extension property" Url="html/P_Voxity_API_Models_Device_extension.htm" />
+  <HelpKINode Title="Device.id property" Url="html/P_Voxity_API_Models_Device_id.htm" />
+  <HelpKINode Title="Device.last_update property" Url="html/P_Voxity_API_Models_Device_last_update.htm" />
+  <HelpKINode Title="Device.state property" Url="html/P_Voxity_API_Models_Device_state.htm" />
+  <HelpKINode Title="Device.state_desc property" Url="html/P_Voxity_API_Models_Device_state_desc.htm" />
+  <HelpKINode Title="DeviceById method" Url="html/M_Voxity_API_EndPoints_Devices_DeviceById.htm" />
+  <HelpKINode Title="DeviceList method" Url="html/M_Voxity_API_EndPoints_Devices_DeviceList.htm" />
+  <HelpKINode Title="Devices class">
+    <HelpKINode Title="Devices Class" Url="html/T_Voxity_API_EndPoints_Devices.htm" />
+    <HelpKINode Title="about Devices class" Url="html/T_Voxity_API_EndPoints_Devices.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Devices__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Devices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Devices property" Url="html/P_Voxity_API_ApiSession_Devices.htm" />
+  <HelpKINode Title="Devices.DeviceById method" Url="html/M_Voxity_API_EndPoints_Devices_DeviceById.htm" />
+  <HelpKINode Title="Devices.DeviceList method" Url="html/M_Voxity_API_EndPoints_Devices_DeviceList.htm" />
+  <HelpKINode Title="Devices.Devices constructor" Url="html/M_Voxity_API_EndPoints_Devices__ctor.htm" />
+  <HelpKINode Title="Disconnect method" Url="html/M_Voxity_API_ApiSession_Disconnect.htm" />
+  <HelpKINode Title="duration property" Url="html/P_Voxity_API_Models_Log_duration.htm" />
+  <HelpKINode Title="duree property" Url="html/P_Voxity_API_Models_ConvVms_duree.htm" />
+  <HelpKINode Title="EmitMessageById method" Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageById.htm" />
+  <HelpKINode Title="EmitMessageList method" Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageList.htm" />
+  <HelpKINode Title="EmitSms class">
+    <HelpKINode Title="EmitSms Class" Url="html/T_Voxity_API_Models_EmitSms.htm" />
+    <HelpKINode Title="about EmitSms class" Url="html/T_Voxity_API_Models_EmitSms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_EmitSms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_EmitSms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmitSms.code property" Url="html/P_Voxity_API_Models_EmitSms_code.htm" />
+  <HelpKINode Title="EmitSms.code_erreur property" Url="html/P_Voxity_API_Models_EmitSms_code_erreur.htm" />
+  <HelpKINode Title="EmitSms.code_message property" Url="html/P_Voxity_API_Models_EmitSms_code_message.htm" />
+  <HelpKINode Title="EmitSms.content property" Url="html/P_Voxity_API_Models_EmitSms_content.htm" />
+  <HelpKINode Title="EmitSms.delivery_date property" Url="html/P_Voxity_API_Models_EmitSms_delivery_date.htm" />
+  <HelpKINode Title="EmitSms.EmitSms constructor" Url="html/M_Voxity_API_Models_EmitSms__ctor.htm" />
+  <HelpKINode Title="EmitSms.id property" Url="html/P_Voxity_API_Models_EmitSms_id.htm" />
+  <HelpKINode Title="EmitSms.libelle property" Url="html/P_Voxity_API_Models_EmitSms_libelle.htm" />
+  <HelpKINode Title="EmitSms.nb_sms property" Url="html/P_Voxity_API_Models_EmitSms_nb_sms.htm" />
+  <HelpKINode Title="EmitSms.operateur property" Url="html/P_Voxity_API_Models_EmitSms_operateur.htm" />
+  <HelpKINode Title="EmitSms.phone_number property" Url="html/P_Voxity_API_Models_EmitSms_phone_number.htm" />
+  <HelpKINode Title="EmitSms.send_date property" Url="html/P_Voxity_API_Models_EmitSms_send_date.htm" />
+  <HelpKINode Title="EmitSms.status property" Url="html/P_Voxity_API_Models_EmitSms_status.htm" />
+  <HelpKINode Title="EmitSms.statut property" Url="html/P_Voxity_API_Models_EmitSms_statut.htm" />
+  <HelpKINode Title="emitter property">
+    <HelpKINode Title="ConvVms.emitter Property " Url="html/P_Voxity_API_Models_ConvVms_emitter.htm" />
+    <HelpKINode Title="CreateSms.emitter Property " Url="html/P_Voxity_API_Models_CreateSms_emitter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="employeeNumber property" Url="html/P_Voxity_API_Models_Contact_employeeNumber.htm" />
+  <HelpKINode Title="erreur property" Url="html/P_Voxity_API_Models_ConvVms_erreur.htm" />
+  <HelpKINode Title="error field" Url="html/F_Voxity_API_ApiResponse_1_error.htm" />
+  <HelpKINode Title="error property" Url="html/P_Voxity_API_Models_ErrorToken_error.htm" />
+  <HelpKINode Title="Errors method" Url="html/M_Voxity_API_ApiResponse_1_Errors.htm" />
+  <HelpKINode Title="errors property" Url="html/P_Voxity_API_Models_UploadVms_errors.htm" />
+  <HelpKINode Title="ErrorToken class">
+    <HelpKINode Title="ErrorToken Class" Url="html/T_Voxity_API_Models_ErrorToken.htm" />
+    <HelpKINode Title="about ErrorToken class" Url="html/T_Voxity_API_Models_ErrorToken.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_ErrorToken__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_ErrorToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorToken.error property" Url="html/P_Voxity_API_Models_ErrorToken_error.htm" />
+  <HelpKINode Title="ErrorToken.ErrorToken constructor" Url="html/M_Voxity_API_Models_ErrorToken__ctor.htm" />
+  <HelpKINode Title="ErrorToken.error_description property" Url="html/P_Voxity_API_Models_ErrorToken_error_description.htm" />
+  <HelpKINode Title="error_description property" Url="html/P_Voxity_API_Models_ErrorToken_error_description.htm" />
+  <HelpKINode Title="expires_in property">
+    <HelpKINode Title="AccessToken.expires_in Property " Url="html/P_Voxity_API_Models_AccessToken_expires_in.htm" />
+    <HelpKINode Title="RefreshToken.expires_in Property " Url="html/P_Voxity_API_Models_RefreshToken_expires_in.htm" />
+  </HelpKINode>
+  <HelpKINode Title="exten property">
+    <HelpKINode Title="Channel.exten Property " Url="html/P_Voxity_API_Models_Channel_exten.htm" />
+    <HelpKINode Title="CreateChannel.exten Property " Url="html/P_Voxity_API_Models_CreateChannel_exten.htm" />
+  </HelpKINode>
+  <HelpKINode Title="extension property" Url="html/P_Voxity_API_Models_Device_extension.htm" />
+  <HelpKINode Title="FileById method" Url="html/M_Voxity_API_EndPoints_Vms_FileById.htm" />
+  <HelpKINode Title="filename property" Url="html/P_Voxity_API_Models_VmsFile_filename.htm" />
+  <HelpKINode Title="FilesList method" Url="html/M_Voxity_API_EndPoints_Vms_FilesList.htm" />
+  <HelpKINode Title="file_id property" Url="html/P_Voxity_API_Models_ConvVms_file_id.htm" />
+  <HelpKINode Title="Filter class">
+    <HelpKINode Title="Filter Class" Url="html/T_Voxity_API_Utils_Filter.htm" />
+    <HelpKINode Title="about Filter class" Url="html/T_Voxity_API_Utils_Filter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Utils_Filter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_Utils_Filter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Filter.Filter constructor" Url="html/M_Voxity_API_Utils_Filter__ctor.htm" />
+  <HelpKINode Title="Filter.ValidMail method" Url="html/M_Voxity_API_Utils_Filter_ValidMail.htm" />
+  <HelpKINode Title="Filter.ValidPhone method" Url="html/M_Voxity_API_Utils_Filter_ValidPhone.htm" />
+  <HelpKINode Title="Filter.ValidRac method" Url="html/M_Voxity_API_Utils_Filter_ValidRac.htm" />
+  <HelpKINode Title="Get enumeration member" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="GetAccessToken method" Url="html/M_Voxity_API_EndPoints_Tokens_GetAccessToken.htm" />
+  <HelpKINode Title="has_music_onhold property" Url="html/P_Voxity_API_Models_Channel_has_music_onhold.htm" />
+  <HelpKINode Title="HostRedirect property">
+    <HelpKINode Title="ApiSession.HostRedirect Property " Url="html/P_Voxity_API_ApiSession_HostRedirect.htm" />
+    <HelpKINode Title="IApiSession.HostRedirect Property " Url="html/P_Voxity_API_IApiSession_HostRedirect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IApiSession interface">
+    <HelpKINode Title="IApiSession Interface" Url="html/T_Voxity_API_IApiSession.htm" />
+    <HelpKINode Title="about IApiSession interface" Url="html/T_Voxity_API_IApiSession.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_IApiSession.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_IApiSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IApiSession.AccessToken property" Url="html/P_Voxity_API_IApiSession_AccessToken.htm" />
+  <HelpKINode Title="IApiSession.ClientId property" Url="html/P_Voxity_API_IApiSession_ClientId.htm" />
+  <HelpKINode Title="IApiSession.ClientSecret property" Url="html/P_Voxity_API_IApiSession_ClientSecret.htm" />
+  <HelpKINode Title="IApiSession.HostRedirect property" Url="html/P_Voxity_API_IApiSession_HostRedirect.htm" />
+  <HelpKINode Title="IApiSession.PortRedirect property" Url="html/P_Voxity_API_IApiSession_PortRedirect.htm" />
+  <HelpKINode Title="IApiSession.RefreshToken property" Url="html/P_Voxity_API_IApiSession_RefreshToken.htm" />
+  <HelpKINode Title="IApiSession.Request method" Url="html/M_Voxity_API_IApiSession_Request.htm" />
+  <HelpKINode Title="IApiSession.TokenExpirationDate property" Url="html/P_Voxity_API_IApiSession_TokenExpirationDate.htm" />
+  <HelpKINode Title="IApiSession.UriRedirect property" Url="html/P_Voxity_API_IApiSession_UriRedirect.htm" />
+  <HelpKINode Title="id property">
+    <HelpKINode Title="Channel.id Property " Url="html/P_Voxity_API_Models_Channel_id.htm" />
+    <HelpKINode Title="ConvVms.id Property " Url="html/P_Voxity_API_Models_ConvVms_id.htm" />
+    <HelpKINode Title="Device.id Property " Url="html/P_Voxity_API_Models_Device_id.htm" />
+    <HelpKINode Title="EmitSms.id Property " Url="html/P_Voxity_API_Models_EmitSms_id.htm" />
+    <HelpKINode Title="NewSms.id Property " Url="html/P_Voxity_API_Models_NewSms_id.htm" />
+    <HelpKINode Title="SmsResponses.id Property " Url="html/P_Voxity_API_Models_SmsResponses_id.htm" />
+    <HelpKINode Title="User.id Property " Url="html/P_Voxity_API_Models_User_id.htm" />
+    <HelpKINode Title="VmsFile.id Property " Url="html/P_Voxity_API_Models_VmsFile_id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="id_sms_sent property" Url="html/P_Voxity_API_Models_SmsResponses_id_sms_sent.htm" />
+  <HelpKINode Title="info property" Url="html/P_Voxity_API_Models_Contact_info.htm" />
+  <HelpKINode Title="internalExtension property" Url="html/P_Voxity_API_Models_User_internalExtension.htm" />
+  <HelpKINode Title="is_active property" Url="html/P_Voxity_API_Models_User_is_active.htm" />
+  <HelpKINode Title="is_admin property" Url="html/P_Voxity_API_Models_User_is_admin.htm" />
+  <HelpKINode Title="is_external_channel property" Url="html/P_Voxity_API_Models_Channel_is_external_channel.htm" />
+  <HelpKINode Title="last_login property" Url="html/P_Voxity_API_Models_User_last_login.htm" />
+  <HelpKINode Title="last_update property" Url="html/P_Voxity_API_Models_Device_last_update.htm" />
+  <HelpKINode Title="libelle property" Url="html/P_Voxity_API_Models_EmitSms_libelle.htm" />
+  <HelpKINode Title="Log class">
+    <HelpKINode Title="Log Class" Url="html/T_Voxity_API_Models_Log.htm" />
+    <HelpKINode Title="about Log class" Url="html/T_Voxity_API_Models_Log.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_Log__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_Log.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Log.billsec property" Url="html/P_Voxity_API_Models_Log_billsec.htm" />
+  <HelpKINode Title="Log.calldate property" Url="html/P_Voxity_API_Models_Log_calldate.htm" />
+  <HelpKINode Title="Log.destination property" Url="html/P_Voxity_API_Models_Log_destination.htm" />
+  <HelpKINode Title="Log.duration property" Url="html/P_Voxity_API_Models_Log_duration.htm" />
+  <HelpKINode Title="Log.Log constructor" Url="html/M_Voxity_API_Models_Log__ctor.htm" />
+  <HelpKINode Title="Log.sens property" Url="html/P_Voxity_API_Models_Log_sens.htm" />
+  <HelpKINode Title="Log.source property" Url="html/P_Voxity_API_Models_Log_source.htm" />
+  <HelpKINode Title="Log.station property" Url="html/P_Voxity_API_Models_Log_station.htm" />
+  <HelpKINode Title="Log.status property" Url="html/P_Voxity_API_Models_Log_status.htm" />
+  <HelpKINode Title="Log.tag property" Url="html/P_Voxity_API_Models_Log_tag.htm" />
+  <HelpKINode Title="LogError class">
+    <HelpKINode Title="LogError Class" Url="html/T_Voxity_API_Models_LogError.htm" />
+    <HelpKINode Title="about LogError class" Url="html/T_Voxity_API_Models_LogError.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_LogError__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_LogError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogError.LogError constructor" Url="html/M_Voxity_API_Models_LogError__ctor.htm" />
+  <HelpKINode Title="LogError.msg property" Url="html/P_Voxity_API_Models_LogError_msg.htm" />
+  <HelpKINode Title="LogError.param property" Url="html/P_Voxity_API_Models_LogError_param.htm" />
+  <HelpKINode Title="LogError.value property" Url="html/P_Voxity_API_Models_LogError_value.htm" />
+  <HelpKINode Title="Logout method" Url="html/M_Voxity_API_EndPoints_Authentication_Logout.htm" />
+  <HelpKINode Title="Logs method" Url="html/M_Voxity_API_EndPoints_Calls_Logs.htm" />
+  <HelpKINode Title="mail property">
+    <HelpKINode Title="Contact.mail Property " Url="html/P_Voxity_API_Models_Contact_mail.htm" />
+    <HelpKINode Title="User.mail Property " Url="html/P_Voxity_API_Models_User_mail.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManageContact class">
+    <HelpKINode Title="ManageContact Class" Url="html/T_Voxity_API_Models_ManageContact.htm" />
+    <HelpKINode Title="about ManageContact class" Url="html/T_Voxity_API_Models_ManageContact.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_ManageContact__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_ManageContact.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManageContact.ManageContact constructor" Url="html/M_Voxity_API_Models_ManageContact__ctor.htm" />
+  <HelpKINode Title="ManageContact.uid property" Url="html/P_Voxity_API_Models_ManageContact_uid.htm" />
+  <HelpKINode Title="ManageVms class">
+    <HelpKINode Title="ManageVms Class" Url="html/T_Voxity_API_Models_ManageVms.htm" />
+    <HelpKINode Title="about ManageVms class" Url="html/T_Voxity_API_Models_ManageVms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_ManageVms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_ManageVms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManageVms.ManageVms constructor" Url="html/M_Voxity_API_Models_ManageVms__ctor.htm" />
+  <HelpKINode Title="ManageVms.result property" Url="html/P_Voxity_API_Models_ManageVms_result.htm" />
+  <HelpKINode Title="ManageVms.status property" Url="html/P_Voxity_API_Models_ManageVms_status.htm" />
+  <HelpKINode Title="message property" Url="html/P_Voxity_API_Models_TokenStatus_message.htm" />
+  <HelpKINode Title="MessagesList method" Url="html/M_Voxity_API_EndPoints_Vms_MessagesList.htm" />
+  <HelpKINode Title="mobile property" Url="html/P_Voxity_API_Models_Contact_mobile.htm" />
+  <HelpKINode Title="mobilePhoneNumber property" Url="html/P_Voxity_API_Models_User_mobilePhoneNumber.htm" />
+  <HelpKINode Title="ModifyFile method" Url="html/M_Voxity_API_EndPoints_Vms_ModifyFile.htm" />
+  <HelpKINode Title="msg property" Url="html/P_Voxity_API_Models_LogError_msg.htm" />
+  <HelpKINode Title="name property">
+    <HelpKINode Title="ContactName.name Property " Url="html/P_Voxity_API_Models_ContactName_name.htm" />
+    <HelpKINode Title="User.name Property " Url="html/P_Voxity_API_Models_User_name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="nb_sms property">
+    <HelpKINode Title="EmitSms.nb_sms Property " Url="html/P_Voxity_API_Models_EmitSms_nb_sms.htm" />
+    <HelpKINode Title="NewSms.nb_sms Property " Url="html/P_Voxity_API_Models_NewSms_nb_sms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewChannel class">
+    <HelpKINode Title="NewChannel Class" Url="html/T_Voxity_API_Models_NewChannel.htm" />
+    <HelpKINode Title="about NewChannel class" Url="html/T_Voxity_API_Models_NewChannel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_NewChannel__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_NewChannel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewChannel.channel_id property" Url="html/P_Voxity_API_Models_NewChannel_channel_id.htm" />
+  <HelpKINode Title="NewChannel.NewChannel constructor" Url="html/M_Voxity_API_Models_NewChannel__ctor.htm" />
+  <HelpKINode Title="NewSms class">
+    <HelpKINode Title="NewSms Class" Url="html/T_Voxity_API_Models_NewSms.htm" />
+    <HelpKINode Title="about NewSms class" Url="html/T_Voxity_API_Models_NewSms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_NewSms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_NewSms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewSms.code property" Url="html/P_Voxity_API_Models_NewSms_code.htm" />
+  <HelpKINode Title="NewSms.code_message property" Url="html/P_Voxity_API_Models_NewSms_code_message.htm" />
+  <HelpKINode Title="NewSms.content property" Url="html/P_Voxity_API_Models_NewSms_content.htm" />
+  <HelpKINode Title="NewSms.id property" Url="html/P_Voxity_API_Models_NewSms_id.htm" />
+  <HelpKINode Title="NewSms.nb_sms property" Url="html/P_Voxity_API_Models_NewSms_nb_sms.htm" />
+  <HelpKINode Title="NewSms.NewSms constructor" Url="html/M_Voxity_API_Models_NewSms__ctor.htm" />
+  <HelpKINode Title="NewSms.phone_number property" Url="html/P_Voxity_API_Models_NewSms_phone_number.htm" />
+  <HelpKINode Title="NewSms.send_date property" Url="html/P_Voxity_API_Models_NewSms_send_date.htm" />
+  <HelpKINode Title="NewSms.status property" Url="html/P_Voxity_API_Models_NewSms_status.htm" />
+  <HelpKINode Title="operateur property" Url="html/P_Voxity_API_Models_EmitSms_operateur.htm" />
+  <HelpKINode Title="originated_by_incomming_call property" Url="html/P_Voxity_API_Models_Channel_originated_by_incomming_call.htm" />
+  <HelpKINode Title="otherPhoneNumber property" Url="html/P_Voxity_API_Models_User_otherPhoneNumber.htm" />
+  <HelpKINode Title="param property" Url="html/P_Voxity_API_Models_LogError_param.htm" />
+  <HelpKINode Title="phoneNumberRaccourci property" Url="html/P_Voxity_API_Models_Contact_phoneNumberRaccourci.htm" />
+  <HelpKINode Title="phone_number property">
+    <HelpKINode Title="ConvVms.phone_number Property " Url="html/P_Voxity_API_Models_ConvVms_phone_number.htm" />
+    <HelpKINode Title="CreateSms.phone_number Property " Url="html/P_Voxity_API_Models_CreateSms_phone_number.htm" />
+    <HelpKINode Title="EmitSms.phone_number Property " Url="html/P_Voxity_API_Models_EmitSms_phone_number.htm" />
+    <HelpKINode Title="NewSms.phone_number Property " Url="html/P_Voxity_API_Models_NewSms_phone_number.htm" />
+    <HelpKINode Title="SmsResponses.phone_number Property " Url="html/P_Voxity_API_Models_SmsResponses_phone_number.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortRedirect property">
+    <HelpKINode Title="ApiSession.PortRedirect Property " Url="html/P_Voxity_API_ApiSession_PortRedirect.htm" />
+    <HelpKINode Title="IApiSession.PortRedirect Property " Url="html/P_Voxity_API_IApiSession_PortRedirect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Post enumeration member" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="protocol property" Url="html/P_Voxity_API_Models_Channel_protocol.htm" />
+  <HelpKINode Title="Put enumeration member" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="RefreshAccessToken method" Url="html/M_Voxity_API_EndPoints_Tokens_RefreshAccessToken.htm" />
+  <HelpKINode Title="RefreshToken class">
+    <HelpKINode Title="RefreshToken Class" Url="html/T_Voxity_API_Models_RefreshToken.htm" />
+    <HelpKINode Title="about RefreshToken class" Url="html/T_Voxity_API_Models_RefreshToken.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_RefreshToken__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_RefreshToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RefreshToken property">
+    <HelpKINode Title="ApiSession.RefreshToken Property " Url="html/P_Voxity_API_ApiSession_RefreshToken.htm" />
+    <HelpKINode Title="IApiSession.RefreshToken Property " Url="html/P_Voxity_API_IApiSession_RefreshToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RefreshToken.access_token property" Url="html/P_Voxity_API_Models_RefreshToken_access_token.htm" />
+  <HelpKINode Title="RefreshToken.expires_in property" Url="html/P_Voxity_API_Models_RefreshToken_expires_in.htm" />
+  <HelpKINode Title="RefreshToken.RefreshToken constructor" Url="html/M_Voxity_API_Models_RefreshToken__ctor.htm" />
+  <HelpKINode Title="RefreshToken.token_type property" Url="html/P_Voxity_API_Models_RefreshToken_token_type.htm" />
+  <HelpKINode Title="RefreshTokenException class">
+    <HelpKINode Title="RefreshTokenException Class" Url="html/T_Voxity_API_RefreshTokenException.htm" />
+    <HelpKINode Title="about RefreshTokenException class" Url="html/T_Voxity_API_RefreshTokenException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_RefreshTokenException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Voxity_API_RefreshTokenException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_RefreshTokenException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_RefreshTokenException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RefreshTokenException.RefreshTokenException constructor" Url="html/M_Voxity_API_RefreshTokenException__ctor.htm" />
+  <HelpKINode Title="refresh_token property" Url="html/P_Voxity_API_Models_AccessToken_refresh_token.htm" />
+  <HelpKINode Title="Request method">
+    <HelpKINode Title="ApiSession.Request Method " Url="html/M_Voxity_API_ApiSession_Request.htm" />
+    <HelpKINode Title="IApiSession.Request Method " Url="html/M_Voxity_API_IApiSession_Request.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResponseById method" Url="html/M_Voxity_API_EndPoints_Sms_ResponseById.htm" />
+  <HelpKINode Title="ResponseOfEmitId method" Url="html/M_Voxity_API_EndPoints_Sms_ResponseOfEmitId.htm" />
+  <HelpKINode Title="ResponsesMessagesList method" Url="html/M_Voxity_API_EndPoints_Sms_ResponsesMessagesList.htm" />
+  <HelpKINode Title="result field" Url="html/F_Voxity_API_ApiResponse_1_result.htm" />
+  <HelpKINode Title="result property">
+    <HelpKINode Title="DeleteEmitSms.result Property " Url="html/P_Voxity_API_Models_DeleteEmitSms_result.htm" />
+    <HelpKINode Title="DeleteResponseSms.result Property " Url="html/P_Voxity_API_Models_DeleteResponseSms_result.htm" />
+    <HelpKINode Title="ManageVms.result Property " Url="html/P_Voxity_API_Models_ManageVms_result.htm" />
+    <HelpKINode Title="UploadVms.result Property " Url="html/P_Voxity_API_Models_UploadVms_result.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Results method" Url="html/M_Voxity_API_ApiResponse_1_Results.htm" />
+  <HelpKINode Title="SendMessage method">
+    <HelpKINode Title="Sms.SendMessage Method " Url="html/M_Voxity_API_EndPoints_Sms_SendMessage.htm" />
+    <HelpKINode Title="Vms.SendMessage Method " Url="html/M_Voxity_API_EndPoints_Vms_SendMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="send_date property">
+    <HelpKINode Title="ConvVms.send_date Property " Url="html/P_Voxity_API_Models_ConvVms_send_date.htm" />
+    <HelpKINode Title="EmitSms.send_date Property " Url="html/P_Voxity_API_Models_EmitSms_send_date.htm" />
+    <HelpKINode Title="NewSms.send_date Property " Url="html/P_Voxity_API_Models_NewSms_send_date.htm" />
+    <HelpKINode Title="SmsResponses.send_date Property " Url="html/P_Voxity_API_Models_SmsResponses_send_date.htm" />
+    <HelpKINode Title="VmsFile.send_date Property " Url="html/P_Voxity_API_Models_VmsFile_send_date.htm" />
+  </HelpKINode>
+  <HelpKINode Title="sens property" Url="html/P_Voxity_API_Models_Log_sens.htm" />
+  <HelpKINode Title="Sms class">
+    <HelpKINode Title="Sms Class" Url="html/T_Voxity_API_EndPoints_Sms.htm" />
+    <HelpKINode Title="about Sms class" Url="html/T_Voxity_API_EndPoints_Sms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Sms__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Sms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sms property" Url="html/P_Voxity_API_ApiSession_Sms.htm" />
+  <HelpKINode Title="Sms.DeleteMessage method" Url="html/M_Voxity_API_EndPoints_Sms_DeleteMessage.htm" />
+  <HelpKINode Title="Sms.DeleteResponse method" Url="html/M_Voxity_API_EndPoints_Sms_DeleteResponse.htm" />
+  <HelpKINode Title="Sms.EmitMessageById method" Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageById.htm" />
+  <HelpKINode Title="Sms.EmitMessageList method" Url="html/M_Voxity_API_EndPoints_Sms_EmitMessageList.htm" />
+  <HelpKINode Title="Sms.ResponseById method" Url="html/M_Voxity_API_EndPoints_Sms_ResponseById.htm" />
+  <HelpKINode Title="Sms.ResponseOfEmitId method" Url="html/M_Voxity_API_EndPoints_Sms_ResponseOfEmitId.htm" />
+  <HelpKINode Title="Sms.ResponsesMessagesList method" Url="html/M_Voxity_API_EndPoints_Sms_ResponsesMessagesList.htm" />
+  <HelpKINode Title="Sms.SendMessage method" Url="html/M_Voxity_API_EndPoints_Sms_SendMessage.htm" />
+  <HelpKINode Title="Sms.Sms constructor" Url="html/M_Voxity_API_EndPoints_Sms__ctor.htm" />
+  <HelpKINode Title="SmsResponses class">
+    <HelpKINode Title="SmsResponses Class" Url="html/T_Voxity_API_Models_SmsResponses.htm" />
+    <HelpKINode Title="about SmsResponses class" Url="html/T_Voxity_API_Models_SmsResponses.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_SmsResponses__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_SmsResponses.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SmsResponses.content property" Url="html/P_Voxity_API_Models_SmsResponses_content.htm" />
+  <HelpKINode Title="SmsResponses.id property" Url="html/P_Voxity_API_Models_SmsResponses_id.htm" />
+  <HelpKINode Title="SmsResponses.id_sms_sent property" Url="html/P_Voxity_API_Models_SmsResponses_id_sms_sent.htm" />
+  <HelpKINode Title="SmsResponses.phone_number property" Url="html/P_Voxity_API_Models_SmsResponses_phone_number.htm" />
+  <HelpKINode Title="SmsResponses.send_date property" Url="html/P_Voxity_API_Models_SmsResponses_send_date.htm" />
+  <HelpKINode Title="SmsResponses.SmsResponses constructor" Url="html/M_Voxity_API_Models_SmsResponses__ctor.htm" />
+  <HelpKINode Title="source property" Url="html/P_Voxity_API_Models_Log_source.htm" />
+  <HelpKINode Title="state property" Url="html/P_Voxity_API_Models_Device_state.htm" />
+  <HelpKINode Title="state_desc property" Url="html/P_Voxity_API_Models_Device_state_desc.htm" />
+  <HelpKINode Title="station property" Url="html/P_Voxity_API_Models_Log_station.htm" />
+  <HelpKINode Title="status property">
+    <HelpKINode Title="ConvVms.status Property " Url="html/P_Voxity_API_Models_ConvVms_status.htm" />
+    <HelpKINode Title="DeleteEmitSms.status Property " Url="html/P_Voxity_API_Models_DeleteEmitSms_status.htm" />
+    <HelpKINode Title="DeleteResponseSms.status Property " Url="html/P_Voxity_API_Models_DeleteResponseSms_status.htm" />
+    <HelpKINode Title="EmitSms.status Property " Url="html/P_Voxity_API_Models_EmitSms_status.htm" />
+    <HelpKINode Title="Log.status Property " Url="html/P_Voxity_API_Models_Log_status.htm" />
+    <HelpKINode Title="ManageVms.status Property " Url="html/P_Voxity_API_Models_ManageVms_status.htm" />
+    <HelpKINode Title="NewSms.status Property " Url="html/P_Voxity_API_Models_NewSms_status.htm" />
+    <HelpKINode Title="UploadVms.status Property " Url="html/P_Voxity_API_Models_UploadVms_status.htm" />
+  </HelpKINode>
+  <HelpKINode Title="statut property" Url="html/P_Voxity_API_Models_EmitSms_statut.htm" />
+  <HelpKINode Title="surname property" Url="html/P_Voxity_API_Models_ContactName_surname.htm" />
+  <HelpKINode Title="tag property" Url="html/P_Voxity_API_Models_Log_tag.htm" />
+  <HelpKINode Title="telephoneNumber property" Url="html/P_Voxity_API_Models_Contact_telephoneNumber.htm" />
+  <HelpKINode Title="telephoneNumber_id property" Url="html/P_Voxity_API_Models_User_telephoneNumber_id.htm" />
+  <HelpKINode Title="TokenAuthorization property" Url="html/P_Voxity_API_EndPoints_Tokens_TokenAuthorization.htm" />
+  <HelpKINode Title="TokenExpirationDate property">
+    <HelpKINode Title="ApiSession.TokenExpirationDate Property " Url="html/P_Voxity_API_ApiSession_TokenExpirationDate.htm" />
+    <HelpKINode Title="IApiSession.TokenExpirationDate Property " Url="html/P_Voxity_API_IApiSession_TokenExpirationDate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tokens class">
+    <HelpKINode Title="Tokens Class" Url="html/T_Voxity_API_EndPoints_Tokens.htm" />
+    <HelpKINode Title="about Tokens class" Url="html/T_Voxity_API_EndPoints_Tokens.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Tokens__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Tokens.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_EndPoints_Tokens.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tokens property" Url="html/P_Voxity_API_ApiSession_Tokens.htm" />
+  <HelpKINode Title="Tokens.AskAuthorization method" Url="html/M_Voxity_API_EndPoints_Tokens_AskAuthorization.htm" />
+  <HelpKINode Title="Tokens.AuthenticationStatus method" Url="html/M_Voxity_API_EndPoints_Tokens_AuthenticationStatus.htm" />
+  <HelpKINode Title="Tokens.GetAccessToken method" Url="html/M_Voxity_API_EndPoints_Tokens_GetAccessToken.htm" />
+  <HelpKINode Title="Tokens.RefreshAccessToken method" Url="html/M_Voxity_API_EndPoints_Tokens_RefreshAccessToken.htm" />
+  <HelpKINode Title="Tokens.TokenAuthorization property" Url="html/P_Voxity_API_EndPoints_Tokens_TokenAuthorization.htm" />
+  <HelpKINode Title="Tokens.Tokens constructor" Url="html/M_Voxity_API_EndPoints_Tokens__ctor.htm" />
+  <HelpKINode Title="Tokens.UserDecision method" Url="html/M_Voxity_API_EndPoints_Tokens_UserDecision.htm" />
+  <HelpKINode Title="TokenStatus class">
+    <HelpKINode Title="TokenStatus Class" Url="html/T_Voxity_API_Models_TokenStatus.htm" />
+    <HelpKINode Title="about TokenStatus class" Url="html/T_Voxity_API_Models_TokenStatus.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_TokenStatus__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_TokenStatus.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TokenStatus.message property" Url="html/P_Voxity_API_Models_TokenStatus_message.htm" />
+  <HelpKINode Title="TokenStatus.TokenStatus constructor" Url="html/M_Voxity_API_Models_TokenStatus__ctor.htm" />
+  <HelpKINode Title="token_type property">
+    <HelpKINode Title="AccessToken.token_type Property " Url="html/P_Voxity_API_Models_AccessToken_token_type.htm" />
+    <HelpKINode Title="RefreshToken.token_type Property " Url="html/P_Voxity_API_Models_RefreshToken_token_type.htm" />
+  </HelpKINode>
+  <HelpKINode Title="transfer_to property" Url="html/P_Voxity_API_Models_Channel_transfer_to.htm" />
+  <HelpKINode Title="transfer_type property" Url="html/P_Voxity_API_Models_Channel_transfer_type.htm" />
+  <HelpKINode Title="type_call property" Url="html/P_Voxity_API_Models_ConvVms_type_call.htm" />
+  <HelpKINode Title="uid property">
+    <HelpKINode Title="Contact.uid Property " Url="html/P_Voxity_API_Models_Contact_uid.htm" />
+    <HelpKINode Title="ManageContact.uid Property " Url="html/P_Voxity_API_Models_ManageContact_uid.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpdateContact method" Url="html/M_Voxity_API_EndPoints_Contacts_UpdateContact.htm" />
+  <HelpKINode Title="UploadSoundFile method" Url="html/M_Voxity_API_EndPoints_Vms_UploadSoundFile.htm" />
+  <HelpKINode Title="UploadVms class">
+    <HelpKINode Title="UploadVms Class" Url="html/T_Voxity_API_Models_UploadVms.htm" />
+    <HelpKINode Title="about UploadVms class" Url="html/T_Voxity_API_Models_UploadVms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_UploadVms__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_UploadVms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UploadVms.errors property" Url="html/P_Voxity_API_Models_UploadVms_errors.htm" />
+  <HelpKINode Title="UploadVms.result property" Url="html/P_Voxity_API_Models_UploadVms_result.htm" />
+  <HelpKINode Title="UploadVms.status property" Url="html/P_Voxity_API_Models_UploadVms_status.htm" />
+  <HelpKINode Title="UploadVms.UploadVms constructor" Url="html/M_Voxity_API_Models_UploadVms__ctor.htm" />
+  <HelpKINode Title="UriRedirect property">
+    <HelpKINode Title="ApiSession.UriRedirect Property " Url="html/P_Voxity_API_ApiSession_UriRedirect.htm" />
+    <HelpKINode Title="IApiSession.UriRedirect Property " Url="html/P_Voxity_API_IApiSession_UriRedirect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/T_Voxity_API_Models_User.htm" />
+    <HelpKINode Title="about User class" Url="html/T_Voxity_API_Models_User.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_User__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_User.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.country property" Url="html/P_Voxity_API_Models_User_country.htm" />
+  <HelpKINode Title="User.creation_date property" Url="html/P_Voxity_API_Models_User_creation_date.htm" />
+  <HelpKINode Title="User.description property" Url="html/P_Voxity_API_Models_User_description.htm" />
+  <HelpKINode Title="User.id property" Url="html/P_Voxity_API_Models_User_id.htm" />
+  <HelpKINode Title="User.internalExtension property" Url="html/P_Voxity_API_Models_User_internalExtension.htm" />
+  <HelpKINode Title="User.is_active property" Url="html/P_Voxity_API_Models_User_is_active.htm" />
+  <HelpKINode Title="User.is_admin property" Url="html/P_Voxity_API_Models_User_is_admin.htm" />
+  <HelpKINode Title="User.last_login property" Url="html/P_Voxity_API_Models_User_last_login.htm" />
+  <HelpKINode Title="User.mail property" Url="html/P_Voxity_API_Models_User_mail.htm" />
+  <HelpKINode Title="User.mobilePhoneNumber property" Url="html/P_Voxity_API_Models_User_mobilePhoneNumber.htm" />
+  <HelpKINode Title="User.name property" Url="html/P_Voxity_API_Models_User_name.htm" />
+  <HelpKINode Title="User.otherPhoneNumber property" Url="html/P_Voxity_API_Models_User_otherPhoneNumber.htm" />
+  <HelpKINode Title="User.telephoneNumber_id property" Url="html/P_Voxity_API_Models_User_telephoneNumber_id.htm" />
+  <HelpKINode Title="User.User constructor" Url="html/M_Voxity_API_Models_User__ctor.htm" />
+  <HelpKINode Title="UserDecision method" Url="html/M_Voxity_API_EndPoints_Tokens_UserDecision.htm" />
+  <HelpKINode Title="Users class">
+    <HelpKINode Title="Users Class" Url="html/T_Voxity_API_EndPoints_Users.htm" />
+    <HelpKINode Title="about Users class" Url="html/T_Voxity_API_EndPoints_Users.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Users__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Users.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Users property" Url="html/P_Voxity_API_ApiSession_Users.htm" />
+  <HelpKINode Title="Users.Users constructor" Url="html/M_Voxity_API_EndPoints_Users__ctor.htm" />
+  <HelpKINode Title="Users.WhoAmI method" Url="html/M_Voxity_API_EndPoints_Users_WhoAmI.htm" />
+  <HelpKINode Title="ValidMail method" Url="html/M_Voxity_API_Utils_Filter_ValidMail.htm" />
+  <HelpKINode Title="ValidPhone method" Url="html/M_Voxity_API_Utils_Filter_ValidPhone.htm" />
+  <HelpKINode Title="ValidRac method" Url="html/M_Voxity_API_Utils_Filter_ValidRac.htm" />
+  <HelpKINode Title="value property" Url="html/P_Voxity_API_Models_LogError_value.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/b8b16620-81f8-41d2-b63a-0f65da1451c0.htm" />
+    <HelpKINode Title="history" Url="html/d3e93931-8ce4-4e4b-b483-b62314b371c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vms class">
+    <HelpKINode Title="Vms Class" Url="html/T_Voxity_API_EndPoints_Vms.htm" />
+    <HelpKINode Title="about Vms class" Url="html/T_Voxity_API_EndPoints_Vms.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_EndPoints_Vms__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Voxity_API_EndPoints_Vms.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vms property" Url="html/P_Voxity_API_ApiSession_Vms.htm" />
+  <HelpKINode Title="Vms.DeleteFile method" Url="html/M_Voxity_API_EndPoints_Vms_DeleteFile.htm" />
+  <HelpKINode Title="Vms.FileById method" Url="html/M_Voxity_API_EndPoints_Vms_FileById.htm" />
+  <HelpKINode Title="Vms.FilesList method" Url="html/M_Voxity_API_EndPoints_Vms_FilesList.htm" />
+  <HelpKINode Title="Vms.MessagesList method" Url="html/M_Voxity_API_EndPoints_Vms_MessagesList.htm" />
+  <HelpKINode Title="Vms.ModifyFile method" Url="html/M_Voxity_API_EndPoints_Vms_ModifyFile.htm" />
+  <HelpKINode Title="Vms.SendMessage method" Url="html/M_Voxity_API_EndPoints_Vms_SendMessage.htm" />
+  <HelpKINode Title="Vms.UploadSoundFile method" Url="html/M_Voxity_API_EndPoints_Vms_UploadSoundFile.htm" />
+  <HelpKINode Title="Vms.Vms constructor" Url="html/M_Voxity_API_EndPoints_Vms__ctor.htm" />
+  <HelpKINode Title="VmsFile class">
+    <HelpKINode Title="VmsFile Class" Url="html/T_Voxity_API_Models_VmsFile.htm" />
+    <HelpKINode Title="about VmsFile class" Url="html/T_Voxity_API_Models_VmsFile.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Voxity_API_Models_VmsFile__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Voxity_API_Models_VmsFile.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VmsFile.description property" Url="html/P_Voxity_API_Models_VmsFile_description.htm" />
+  <HelpKINode Title="VmsFile.filename property" Url="html/P_Voxity_API_Models_VmsFile_filename.htm" />
+  <HelpKINode Title="VmsFile.id property" Url="html/P_Voxity_API_Models_VmsFile_id.htm" />
+  <HelpKINode Title="VmsFile.send_date property" Url="html/P_Voxity_API_Models_VmsFile_send_date.htm" />
+  <HelpKINode Title="VmsFile.VmsFile constructor" Url="html/M_Voxity_API_Models_VmsFile__ctor.htm" />
+  <HelpKINode Title="Voxity.API namespace" Url="html/N_Voxity_API.htm" />
+  <HelpKINode Title="Voxity.API.AccessTokenException class" Url="html/T_Voxity_API_AccessTokenException.htm" />
+  <HelpKINode Title="Voxity.API.ApiAdminException class" Url="html/T_Voxity_API_ApiAdminException.htm" />
+  <HelpKINode Title="Voxity.API.ApiArgumentException class" Url="html/T_Voxity_API_ApiArgumentException.htm" />
+  <HelpKINode Title="Voxity.API.ApiAuthenticateException class" Url="html/T_Voxity_API_ApiAuthenticateException.htm" />
+  <HelpKINode Title="Voxity.API.ApiErrorResponseException class" Url="html/T_Voxity_API_ApiErrorResponseException.htm" />
+  <HelpKINode Title="Voxity.API.ApiInternalErrorException class" Url="html/T_Voxity_API_ApiInternalErrorException.htm" />
+  <HelpKINode Title="Voxity.API.ApiResponse(Of T) class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+  <HelpKINode Title="Voxity.API.ApiResponse&lt;T&gt; class" Url="html/T_Voxity_API_ApiResponse_1.htm" />
+  <HelpKINode Title="Voxity.API.ApiSession class" Url="html/T_Voxity_API_ApiSession.htm" />
+  <HelpKINode Title="Voxity.API.ApiSession.HttpMethod enumeration" Url="html/T_Voxity_API_ApiSession_HttpMethod.htm" />
+  <HelpKINode Title="Voxity.API.ApiSessionException class" Url="html/T_Voxity_API_ApiSessionException.htm" />
+  <HelpKINode Title="Voxity.API.ApiTooManyRequestException class" Url="html/T_Voxity_API_ApiTooManyRequestException.htm" />
+  <HelpKINode Title="Voxity.API.ClientIdSecretException class" Url="html/T_Voxity_API_ClientIdSecretException.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints namespace" Url="html/N_Voxity_API_EndPoints.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Authentication class" Url="html/T_Voxity_API_EndPoints_Authentication.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Calls class" Url="html/T_Voxity_API_EndPoints_Calls.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Contacts class" Url="html/T_Voxity_API_EndPoints_Contacts.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Devices class" Url="html/T_Voxity_API_EndPoints_Devices.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Sms class" Url="html/T_Voxity_API_EndPoints_Sms.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Tokens class" Url="html/T_Voxity_API_EndPoints_Tokens.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Users class" Url="html/T_Voxity_API_EndPoints_Users.htm" />
+  <HelpKINode Title="Voxity.API.EndPoints.Vms class" Url="html/T_Voxity_API_EndPoints_Vms.htm" />
+  <HelpKINode Title="Voxity.API.IApiSession interface" Url="html/T_Voxity_API_IApiSession.htm" />
+  <HelpKINode Title="Voxity.API.Models namespace" Url="html/N_Voxity_API_Models.htm" />
+  <HelpKINode Title="Voxity.API.Models.AccessToken class" Url="html/T_Voxity_API_Models_AccessToken.htm" />
+  <HelpKINode Title="Voxity.API.Models.Channel class" Url="html/T_Voxity_API_Models_Channel.htm" />
+  <HelpKINode Title="Voxity.API.Models.Contact class" Url="html/T_Voxity_API_Models_Contact.htm" />
+  <HelpKINode Title="Voxity.API.Models.ContactName class" Url="html/T_Voxity_API_Models_ContactName.htm" />
+  <HelpKINode Title="Voxity.API.Models.ConvVms class" Url="html/T_Voxity_API_Models_ConvVms.htm" />
+  <HelpKINode Title="Voxity.API.Models.CreateChannel class" Url="html/T_Voxity_API_Models_CreateChannel.htm" />
+  <HelpKINode Title="Voxity.API.Models.CreateSms class" Url="html/T_Voxity_API_Models_CreateSms.htm" />
+  <HelpKINode Title="Voxity.API.Models.DeleteEmitSms class" Url="html/T_Voxity_API_Models_DeleteEmitSms.htm" />
+  <HelpKINode Title="Voxity.API.Models.DeleteResponseSms class" Url="html/T_Voxity_API_Models_DeleteResponseSms.htm" />
+  <HelpKINode Title="Voxity.API.Models.Device class" Url="html/T_Voxity_API_Models_Device.htm" />
+  <HelpKINode Title="Voxity.API.Models.EmitSms class" Url="html/T_Voxity_API_Models_EmitSms.htm" />
+  <HelpKINode Title="Voxity.API.Models.ErrorToken class" Url="html/T_Voxity_API_Models_ErrorToken.htm" />
+  <HelpKINode Title="Voxity.API.Models.Log class" Url="html/T_Voxity_API_Models_Log.htm" />
+  <HelpKINode Title="Voxity.API.Models.LogError class" Url="html/T_Voxity_API_Models_LogError.htm" />
+  <HelpKINode Title="Voxity.API.Models.ManageContact class" Url="html/T_Voxity_API_Models_ManageContact.htm" />
+  <HelpKINode Title="Voxity.API.Models.ManageVms class" Url="html/T_Voxity_API_Models_ManageVms.htm" />
+  <HelpKINode Title="Voxity.API.Models.NewChannel class" Url="html/T_Voxity_API_Models_NewChannel.htm" />
+  <HelpKINode Title="Voxity.API.Models.NewSms class" Url="html/T_Voxity_API_Models_NewSms.htm" />
+  <HelpKINode Title="Voxity.API.Models.RefreshToken class" Url="html/T_Voxity_API_Models_RefreshToken.htm" />
+  <HelpKINode Title="Voxity.API.Models.SmsResponses class" Url="html/T_Voxity_API_Models_SmsResponses.htm" />
+  <HelpKINode Title="Voxity.API.Models.TokenStatus class" Url="html/T_Voxity_API_Models_TokenStatus.htm" />
+  <HelpKINode Title="Voxity.API.Models.UploadVms class" Url="html/T_Voxity_API_Models_UploadVms.htm" />
+  <HelpKINode Title="Voxity.API.Models.User class" Url="html/T_Voxity_API_Models_User.htm" />
+  <HelpKINode Title="Voxity.API.Models.VmsFile class" Url="html/T_Voxity_API_Models_VmsFile.htm" />
+  <HelpKINode Title="Voxity.API.RefreshTokenException class" Url="html/T_Voxity_API_RefreshTokenException.htm" />
+  <HelpKINode Title="Voxity.API.Utils namespace" Url="html/N_Voxity_API_Utils.htm" />
+  <HelpKINode Title="Voxity.API.Utils.Converter class" Url="html/T_Voxity_API_Utils_Converter.htm" />
+  <HelpKINode Title="Voxity.API.Utils.Filter class" Url="html/T_Voxity_API_Utils_Filter.htm" />
+  <HelpKINode Title="Welcome" Url="html/53c85436-a1f8-40c9-844f-fa10ef0ff744.htm" />
+  <HelpKINode Title="WhoAmI method" Url="html/M_Voxity_API_EndPoints_Users_WhoAmI.htm" />
+</HelpKI>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d3e93931-8ce4-4e4b-b483-b62314b371c3" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>The topics in this section describe the various changes made to the Voxity.API .NET Library over the
+life of the project.</para>
+		</introduction>
+
+		<section>
+			<title>Version History</title>
+			<content>
+				<para>Select a version below to see a description of its changes.</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><link xlink:href="b8b16620-81f8-41d2-b63a-0f65da1451c0" /></para>
+					</listItem>
+          <!--
+					<listItem>
+						<para>[TODO: Add links to each specific version page]</para>
+					</listItem>-->
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="53c85436-a1f8-40c9-844f-fa10ef0ff744" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

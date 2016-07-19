@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="53c85436-a1f8-40c9-844f-fa10ef0ff744" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>
+        This is a library which provide a abstraction layer between the <externalLink><linkText>Voxity API</linkText> <linkUri>https://api.voxity.fr/doc/</linkUri></externalLink> and .NET applications.
+      </para>
+      <para>
+        The library manages authentication, endpoints requests, and translated responses to a business model-awards object.
+      </para>
+		</introduction>
+
+		<section>
+			<title>Getting Started</title>
+			<content>
+				<para>
+          To get started, register your application in <externalLink><linkText>Voxity API interface</linkText> <linkUri>https://client.voxity.fr/voxity-api/configuration</linkUri></externalLink>.
+          Then, add <legacyBold>Voxity.API</legacyBold>&#160;<externalLink><linkText>reference</linkText> <linkUri>https://msdn.microsoft.com/en-us/library/hh708954(v=vs.140).aspx</linkUri></externalLink> to your project.
+        </para>
+      </content>
+    </section>
+    <section>
+			<title>Requirements</title>
+			<content>
+        <para>
+          <legacyBold>Voxity.API</legacyBold> library takes 6 <legacyItalic><externalLink><linkText>properties</linkText> <linkUri>https://client.voxity.fr/voxity-api/configuration</linkUri></externalLink></legacyItalic>.
+        </para>
+        <list class="bullet">
+          <listItem>
+            <para>
+              4 mandatorys <legacyItalic>properties</legacyItalic> :
+            </para>
+            <list class="nobullet">
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.ClientId</codeEntityReference>
+                </para>
+              </listItem>
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.ClientSecret</codeEntityReference>
+                </para>
+              </listItem>
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.HostRedirect</codeEntityReference>
+                </para>
+              </listItem>
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.PortRedirect</codeEntityReference>
+                </para>
+              </listItem>
+            </list>
+          </listItem>
+          <listItem>
+            <para>
+              2 optional <legacyItalic>properties</legacyItalic> :
+            </para>
+            <list class="nobullet">
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.AccessToken</codeEntityReference>
+                </para>
+              </listItem>
+              <listItem>
+                <para>
+                  <codeEntityReference qualifyHint="false">P:Voxity.API.ApiSession.RefreshToken</codeEntityReference>
+                </para>
+              </listItem>
+            </list>
+          </listItem>
+        </list>
+      </content>
+    </section>
+    <section>
+      <title>Usage</title>
+			<content>
+        <para>
+          The following steps show how to use the library :
+        </para>
+
+				<list class="ordered">
+          
+					<listItem>
+						<para>
+              To open a session on the <legacyBold>Voxity.API</legacyBold>, call the <codeEntityReference qualifyHint="false">T:Voxity.API.ApiSession</codeEntityReference> and provide at least the 4 parameters required.
+              It's highly recommended to implement a singleton pattern for the session (the example below use a singleton session).
+              It's also recommended to store your AccessToken and RefreshToken to skip the authentification process for the next time.
+            </para>
+            <codeReference>Voxity.API#Create</codeReference>
+					</listItem>     
+          <listItem>
+            <para/>
+            <para>
+              To autenticate in the API, you must provide a code. To do this, ask authorization to the user by providing the <codeEntityReference qualifyHint="false" linkText="authorization Uri">P:Voxity.API.ApiSession.AskAuthUri</codeEntityReference>.
+              When the user authenticates and allows your app to acceed at their own Voxity account datas, the API redirects the user into your redirect uri page.
+              At the same time, the API provides the code to get the access token. 
+              You can use <externalLink><linkText>HttpListener</linkText><linkUri>https://msdn.microsoft.com/en-us/library/system.net.httplistener(v=vs.110).aspx</linkUri></externalLink> to get the code in the uri.
+            </para>
+            <para>
+              You don't have to repeat this step once you've got the tokens.
+              UriRedirect (e.g. http://localhost:8080) is just a field for the API. It's not a obligation to have a web server in listening on this address.
+            </para>
+            <codeReference>Voxity.API#Connect</codeReference>
+          </listItem>
+					<listItem>
+            <para/>
+						<para>
+              Finally, call Endpoints you want to execute. 
+            </para>
+            <para>
+              <legacyBold>Synthaxe : </legacyBold>
+            </para>
+            <codeReference>Voxity.API#EndpointSynthaxe</codeReference>
+            <para>
+              If you want to store endpoint result into a object, use <codeEntityReference qualifyHint="false" linkText="Models.Type">N:Voxity.API.Models</codeEntityReference> for the <codeEntityReference qualifyHint="false" linkText="type">N:Voxity.API.EndPoints</codeEntityReference> of your object.
+            </para>
+            <codeReference>Voxity.API#EndpointSynthaxeType</codeReference>
+					</listItem>
+				</list>
+			</content>
+    </section>
+    <section>
+      <title>Examples</title>
+      <content>
+        <para>
+          <legacyBold>Call a phone :</legacyBold>
+        </para>
+        <para>
+          This example <codeEntityReference linkText="call">M:Voxity.API.EndPoints.Calls.CreateChannel(System.String)</codeEntityReference> a given <codeEntityReference linkText="phone number">M:Voxity.API.EndPoints.Calls.CreateChannel(System.String)</codeEntityReference>.
+        </para>
+        <codeReference>Voxity.API#ExampleCall</codeReference>
+        <para/>
+        <para>
+          <legacyBold>Get current user information</legacyBold>
+        </para>
+        <para>
+          This example stores <codeEntityReference linkText="user">M:Voxity.API.EndPoints.Users.WhoAmI</codeEntityReference> informations into <codeInline>user</codeInline> then display the current user name.
+        </para>
+        <codeReference>Voxity.API#ExampleEndpoint</codeReference>
+        <code language="c#" title="Console Output">
+          Hello Xavier BRASSOUD !
+        </code>
+        <para/>
+        <para>
+          <legacyBold>Get contact list :</legacyBold>
+        </para>
+        <para>
+          This example store list of <codeEntityReference linkText="contacts" qualifyHint="false">M:Voxity.API.EndPoints.Contacts.ContactList(System.String,System.String,System.String)</codeEntityReference> into <codeInline>contacts</codeInline> then them display.
+        </para>
+        <codeReference>Voxity.API#ExampleEndpointList</codeReference>
+        <code language="c#" title="Console Output">
+          Léa RICO : lea.rico@vox.fr
+          Alain PROVISTE : alain.proviste@vox.fr
+          Lara CLETTE : lara.clette@vox.fr
+          Jean RIGOLE : jean.rigole@vox.fr
+        </code>
+			</content>
+		</section>
+		<relatedTopics>
+			<link xlink:href="d3e93931-8ce4-4e4b-b483-b62314b371c3" />
+      <externalLink> <linkText>Voxity API</linkText> <linkUri>https://api.voxity.fr/doc/</linkUri></externalLink>
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>
