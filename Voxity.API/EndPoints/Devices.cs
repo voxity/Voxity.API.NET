@@ -45,7 +45,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiInternalErrorException();
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -74,7 +74,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiInternalErrorException();
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }

@@ -12,4 +12,13 @@ namespace Voxity.API.Tests
         }
     }
 
+    [TestClass]
+    public class UtilsFilterTests
+    {
+        [TestMethod]
+        public void Utils_ValidPhone_Valid()
+        {
+            Voxity.API.Utils.Filter.ValidPhone("+33612345678");
+        }
+    }
 }

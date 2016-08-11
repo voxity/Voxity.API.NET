@@ -126,7 +126,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiArgumentException(msgError);
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -144,7 +144,7 @@ namespace Voxity.API.EndPoints
             CreateChannel cc = new CreateChannel();
             cc.exten = exten;
 
-            HttpResponseMessage response = callSession.Request(ApiSession.HttpMethod.Post, "channels", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cc));
+            HttpResponseMessage response = callSession.Request(ApiSession.HttpMethod.Post, "channels", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cc, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }));
 
             if (response.IsSuccessStatusCode)
             {
@@ -197,7 +197,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiTooManyRequestException();
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -227,7 +227,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiTooManyRequestException();
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }

@@ -48,7 +48,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -71,7 +71,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -95,7 +95,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -125,7 +125,7 @@ namespace Voxity.API.EndPoints
             if (vf.id == null)
                 throw new ApiSessionException("File ID invalid.");
 
-            HttpResponseMessage response = vmsSession.Request(ApiSession.HttpMethod.Put, "vms/files/" + id, contentType: "application/json", contentValue: JsonConvert.SerializeObject(vf));
+            HttpResponseMessage response = vmsSession.Request(ApiSession.HttpMethod.Put, "vms/files/" + id, contentType: "application/json", contentValue: JsonConvert.SerializeObject(vf, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }));
 
             if (response.IsSuccessStatusCode)
             {
@@ -136,7 +136,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -160,7 +160,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -176,7 +176,7 @@ namespace Voxity.API.EndPoints
         /// <returns><see cref="ConvVms"/> object.</returns>
         public ConvVms SendMessage(string fileId, string phoneNumber, string emitter, string typeCall)
         {
-            if (Utils.Filter.ValidPhone(phoneNumber) != true || Utils.Filter.ValidRac(phoneNumber) != true)
+            if (Utils.Filter.ValidPhone(phoneNumber) != true && Utils.Filter.ValidRac(phoneNumber) != true)
                 throw new ApiSessionException("Invalid phone number.");
 
             ConvVms cv = new ConvVms();
@@ -201,7 +201,7 @@ namespace Voxity.API.EndPoints
                 throw new ApiSessionException("File type_call invalid.");
                 
 
-            HttpResponseMessage response = vmsSession.Request(ApiSession.HttpMethod.Post, "vms", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cv));
+            HttpResponseMessage response = vmsSession.Request(ApiSession.HttpMethod.Post, "vms", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cv, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }));
 
             if (response.IsSuccessStatusCode)
             {
@@ -212,7 +212,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -249,7 +249,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }

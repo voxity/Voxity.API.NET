@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using Voxity.API.Models;
@@ -30,7 +31,7 @@ namespace Voxity.API.EndPoints
         /// <returns><see cref="NewSms"/> object.</returns>
         public NewSms SendMessage(string content, string phoneNumber, string emitter = null)
         {
-            if (Utils.Filter.ValidPhone(phoneNumber) != true || Utils.Filter.ValidRac(phoneNumber) != true)
+            if (Utils.Filter.ValidPhone(phoneNumber) != true && Utils.Filter.ValidRac(phoneNumber) != true)
                 throw new ApiSessionException("Invalid phone number.");
 
             CreateSms cs = new CreateSms();
@@ -44,7 +45,7 @@ namespace Voxity.API.EndPoints
             if (!string.IsNullOrWhiteSpace(emitter))
                 cs.emitter = emitter;
 
-            HttpResponseMessage response = smsSession.Request(ApiSession.HttpMethod.Post, "sms", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cs));
+            HttpResponseMessage response = smsSession.Request(ApiSession.HttpMethod.Post, "sms", contentType: "application/json", contentValue: JsonConvert.SerializeObject(cs, Formatting.None, new JsonSerializerSettings{NullValueHandling = NullValueHandling.Ignore}));
 
             if (response.IsSuccessStatusCode)
             {
@@ -55,7 +56,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -80,7 +81,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -103,7 +104,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -126,7 +127,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -149,7 +150,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -172,7 +173,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -194,7 +195,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -217,7 +218,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }

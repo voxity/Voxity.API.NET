@@ -86,7 +86,7 @@ namespace Voxity.API.EndPoints
                     return false;
 
                 default:
-                    throw new HttpRequestException();
+                    throw new HttpRequestException(response.StatusCode.ToString());
             }
         }
 

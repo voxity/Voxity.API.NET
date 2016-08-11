@@ -42,16 +42,36 @@ namespace Voxity.API.EndPoints
                 throw new ApiSessionException("[Voxity API] - Create Contact\nContact name is null or empty, please give a valid contact name.");
 
             if (!string.IsNullOrWhiteSpace(telNum))
-                c.telephoneNumber = telNum;
+            {
+                if (Utils.Filter.ValidPhone(telNum) != true)
+                    throw new ApiSessionException("Invalid phone number.");
+                else
+                    c.telephoneNumber = telNum;
+            }
 
             if (!string.IsNullOrWhiteSpace(telNumRac))
-                c.phoneNumberRaccourci = telNumRac;
+            {
+                if (Utils.Filter.ValidRac(telNumRac) != true)
+                    throw new ApiSessionException("Invalid phone alias.");
+                else
+                    c.phoneNumberRaccourci = telNumRac;
+            }
 
             if (!string.IsNullOrWhiteSpace(mobile))
-                c.mobile = mobile;
+            {
+                if (Utils.Filter.ValidPhone(mobile) != true)
+                    throw new ApiSessionException("Invalid mobile number.");
+                else
+                    c.mobile = mobile;
+            }
 
             if (!string.IsNullOrWhiteSpace(racMobile))
-                c.employeeNumber = racMobile;
+            {
+                if (Utils.Filter.ValidRac(racMobile) != true)
+                    throw new ApiSessionException("Invalid mobile alias.");
+                else
+                    c.employeeNumber = racMobile;
+            }
 
             if (!string.IsNullOrWhiteSpace(mail))
                 c.mail = mail;
@@ -60,7 +80,7 @@ namespace Voxity.API.EndPoints
                 throw new ApiSessionException("[Voxity API] - Create Contact\nNo phone number and mobile set. Please add one of them.");
 
 
-            HttpResponseMessage response = contactSession.Request(ApiSession.HttpMethod.Post, "contacts", contentType: "application/json", contentValue: JsonConvert.SerializeObject(c));
+            HttpResponseMessage response = contactSession.Request(ApiSession.HttpMethod.Post, "contacts", contentType: "application/json", contentValue: JsonConvert.SerializeObject(c, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }));
 
             if (response.IsSuccessStatusCode)
             {
@@ -72,7 +92,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -102,7 +122,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -125,7 +145,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -156,16 +176,36 @@ namespace Voxity.API.EndPoints
                 throw new ApiSessionException("[Voxity API] - Create Contact\nContact name is null or empty, please give a valid contact name.");
 
             if (!string.IsNullOrWhiteSpace(telNum))
-                c.telephoneNumber = telNum;
+            {
+                if (Utils.Filter.ValidPhone(telNum) != true)
+                    throw new ApiSessionException("Invalid phone number.");
+                else
+                    c.telephoneNumber = telNum;
+            }
 
             if (!string.IsNullOrWhiteSpace(telNumRac))
-                c.phoneNumberRaccourci = telNumRac;
+            {
+                if (Utils.Filter.ValidRac(telNumRac) != true)
+                    throw new ApiSessionException("Invalid phone alias.");
+                else
+                    c.phoneNumberRaccourci = telNumRac;
+            }
 
             if (!string.IsNullOrWhiteSpace(mobile))
-                c.mobile = mobile;
+            {
+                if (Utils.Filter.ValidPhone(mobile) != true)
+                    throw new ApiSessionException("Invalid mobile number.");
+                else
+                    c.mobile = mobile;
+            }
 
             if (!string.IsNullOrWhiteSpace(racMobile))
-                c.employeeNumber = racMobile;
+            {
+                if (Utils.Filter.ValidRac(racMobile) != true)
+                    throw new ApiSessionException("Invalid mobile alias.");
+                else
+                    c.employeeNumber = racMobile;
+            }
 
             if (!string.IsNullOrWhiteSpace(mail))
                 c.mail = mail;
@@ -174,8 +214,7 @@ namespace Voxity.API.EndPoints
             if (c.telephoneNumber == null && c.mobile == null)
                 throw new ApiSessionException("[Voxity API] - Create Contact\nNo phone number and mobile set. Please add one of them.");
 
-
-            HttpResponseMessage response = contactSession.Request(ApiSession.HttpMethod.Put, "contacts/" + uid, contentType: "application/json", contentValue: JsonConvert.SerializeObject(c));
+            HttpResponseMessage response = contactSession.Request(ApiSession.HttpMethod.Put, "contacts/" + uid, contentType: "application/json", contentValue: JsonConvert.SerializeObject(c, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }));
 
             if (response.IsSuccessStatusCode)
             {
@@ -186,7 +225,7 @@ namespace Voxity.API.EndPoints
                 switch (response.StatusCode)
                 {
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
@@ -214,7 +253,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiInternalErrorException();
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }

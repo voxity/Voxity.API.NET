@@ -74,7 +74,7 @@ namespace Voxity.API.EndPoints
                     //TODO : Redirect with code if success
 
                 default:
-                    throw new HttpRequestException();
+                    throw new HttpRequestException(response.StatusCode.ToString());
             }
         }
 
@@ -130,7 +130,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiSessionException("Unknown error response. Check if you pass the correct code. If persist, please contact Voxity support.");
 
                     default:
-                        throw new HttpRequestException(response.StatusCode.ToString());
+                        throw new HttpRequestException(response.StatusCode.ToString(response.StatusCode.ToString()));
                 }
             }
         }
@@ -178,7 +178,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiErrorResponseException(errorToken.error, errorToken.error_description);
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
 
@@ -208,7 +208,7 @@ namespace Voxity.API.EndPoints
                         throw new ApiSessionException("InternalServerError. Please contact Voxity support.", innerException: new HttpRequestException());
 
                     default:
-                        throw new HttpRequestException();
+                        throw new HttpRequestException(response.StatusCode.ToString());
                 }
             }
         }
